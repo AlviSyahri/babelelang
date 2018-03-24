@@ -13,8 +13,8 @@ class User extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
+        Schema::create('msuser', function (Blueprint $table) {
+            $table->increments('user_id');
             $table->string('nama', 191);
 			$table->text('alamat');
             $table->string('email', 191)->unique();
