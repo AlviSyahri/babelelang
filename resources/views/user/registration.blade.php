@@ -19,10 +19,17 @@
                     <input type="text" placeholder="Full name" name="nama" />
                     <label>Email address </label>
                     <input type="text" placeholder="E-mail" name="email" />
+                    <label>Phone Number </label>
+                    <input type="text" placeholder="Phone Number" name="no_telepon" />
+                    <label>Jenis Kelamin </label>
+                    <input type="radio" name="jenis_kelamin" value="0"> Laki-laki
+                    <input type="radio" name="jenis_kelamin" value="1">Perempuan
                     <label>Password </label>
                     <input type="password" placeholder="Password" name="password" />
-                    <label>Password </label>
+                    <label>Password Confirmation</label>
                     <input type="password" placeholder="Password Confirmation" name="password_confirmation" />
+                    <label>Alamat </label>
+                    <input type="textarea" placeholder="alamat" name="alamat" />
                     <label>Foto KTP </label>
                     <input type="file" name="image1" />  
                     <label>Foto Profil </label>

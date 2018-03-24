@@ -34,11 +34,11 @@ class RegisterController extends Controller
    		$validator = Validator::make($request->all(),[
     		'nama'							       =>'required',
     		'email'							       =>'required|unique:msuser|email',
-        'telepon'						       =>'required|between:9,21',
+        'no_telepon'						       =>'required|between:9,21',
         'alamat'						       =>'required',
     		'password'					 	     =>'required|min:6|confirmed',
     		'password_confirmation'		 =>'required|min:6',
-    		'jenis_kelamin.required'	 =>'required'
+    		'jenis_kelamin'	           =>'required'
     	],$message);
 
         if($validator->fails()){
@@ -79,6 +79,7 @@ class RegisterController extends Controller
             $data->foto=$filename;
             $data->foto_ktp=$filename1;
             $data->user_activation='0';
+            
             $data->save();
             Auth::login($data);
             return view('home');
