@@ -115,7 +115,7 @@
                                             <h2>Collection</h2>
                                             <h2 class="title1">2016</h2>
                                             <h3 class="title3">Summer Dress</h3>
-                                            <p>Simply dummy text of the printing and typesetting industrstandard dummy since.</p>
+                                            <p>INI BABELELANG.</p>
                                             <a href="#" class="btn-shop-now-fill-slider">View Collections</a>
                                         </div>
                                     </div>
