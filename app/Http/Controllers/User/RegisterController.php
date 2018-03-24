@@ -1,4 +1,3 @@
-
 <?php
 
 namespace App\Http\Controllers\User;
@@ -9,7 +8,7 @@ use App\Model\User;
 use Hash;
 use Validator;
 
-class Register extends Controller
+class RegisterController extends Controller
 {
    	public function registerview(){
    	    return view('Register');
@@ -32,7 +31,7 @@ class Register extends Controller
         'password_confirmation.min'		    =>'Password Minimal 6',
         'jenis_kelamin.required'			    =>'Jenis Kelamin harus dipilih'
    		];
-   		$Validator = Validator::make($request->all(),[
+   		$validator = Validator::make($request->all(),[
     		'nama'							       =>'required',
     		'email'							       =>'required|unique:msuser|email',
         'telepon'						       =>'required|between:9,21',
@@ -84,4 +83,5 @@ class Register extends Controller
             Auth::login($data);
             return view('home');
         }
+      }
 }
