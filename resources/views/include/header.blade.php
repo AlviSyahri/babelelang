@@ -7,8 +7,8 @@
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="header-contact">
                                 <ul>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> + 123 456 7890</a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> info@metro.com</a></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> 085 862 842 669</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> sevenplaces07@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
