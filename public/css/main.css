@@ -16,6 +16,14 @@ html {
     line-height: 1.4;
 }
 
+.left-side{
+    float: left;
+}
+
+.right-side{
+    float: right;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
