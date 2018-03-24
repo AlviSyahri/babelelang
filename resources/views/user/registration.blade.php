@@ -34,6 +34,7 @@
         <!-- Login Registration Page Area End Here -->
         <!-- Footer Area Start Here -->
         <footer>
+            <!--
             <div class="footer-area">
                 <div class="footer-area-top">
                     <div class="container">
@@ -135,7 +136,7 @@
                     </div>
                 </div>
             </div>
-
+        -->
 
 
 @stop
