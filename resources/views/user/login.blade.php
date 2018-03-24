@@ -15,10 +15,11 @@
                                 <input type="text" placeholder="ex: felix@babelelang.com" />
                                 <label>Password *</label>
                                 <input type="password" placeholder="Password" />
-                                <div class="left-side"><span><input type="checkbox" name="remember"/>Remember Me</span></div>
-                                <div class="right-side"><p><a href="#">Lost your password?</a></p></div>
-                                <!--<label class="check">Lost your password?</label>-->
+								<span class="pull-left"><input type="checkbox" name="remember"/>Remember Me</span>
+                                <a href="#"><label class="pull-right">Lost your password?</label></a>
                                 <br>
+								<br>
+								<br>
                                 <div>
                                     <button class="btn-send-message disabled" type="submit" value="Login">Login</button>
                                 </div>
