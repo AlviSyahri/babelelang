@@ -23,3 +23,7 @@ Route::get('login', function () {
 Route::get('registration', function () {
     return view('user.registration');
 });
+
+Route::get('test', function () {
+    return view('admin.index');
+});
