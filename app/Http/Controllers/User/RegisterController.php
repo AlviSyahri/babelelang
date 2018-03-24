@@ -5,9 +5,8 @@ namespace App\Http\Controllers\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Model\User;
-use Hash;
 use Validator;
-
+use Auth;
 class RegisterController extends Controller
 {
    	public function registerview(){
@@ -72,17 +71,19 @@ class RegisterController extends Controller
             $data->nama=$request->nama;
             $data->alamat=$request->alamat;
             $data->email=$request->email;
-            $data->password=Hash::make($request->password);
+            $data->password=bcrypt($request->password);
             $data->no_telepon=$request->no_telepon;
             $data->dob=$request->dob;
             $data->jenis_kelamin=$request->jenis_kelamin;
             $data->foto=$filename;
             $data->foto_ktp=$filename1;
-            $data->user_activation='0';
-            
+            $data->user_activation=0;
+            $data->role=1;
+            $data->dob="2015-10-28";
+            $data->saldo=0;
             $data->save();
             Auth::login($data);
-            return view('home');
+            return view('index');
         }
       }
 }
