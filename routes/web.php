@@ -23,7 +23,7 @@ Route::get('login', function () {
 Route::get('registration', function () {
     return view('user.registration');
 });
-
+Route::post('/registration','User\RegisterController@doRegister');
 Route::get('admin/', function () {
     return view('admin.index');
 });
