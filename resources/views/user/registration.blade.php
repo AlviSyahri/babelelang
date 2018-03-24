@@ -15,15 +15,14 @@
                         <div class="login-registration-field">
                             <h2 class="cart-area-title">Register</h2>
                             <form enctype="true">
-                                <label>User Name </label>
-                                <input type="text" placeholder="Name" />
-                                <label>Foto KTP </label>
-
-                                <input type="file" />
+                                <label>Full Name </label>
+                                <input type="text" placeholder="Full name" />
                                 <label>Email address </label>
                                 <input type="text" placeholder="E-mail" />
                                 <label>Password </label>
                                 <input type="password" placeholder="Password" />
+                                <label>Foto KTP </label>
+                                <input type="file" />                                
                                 <button class="btn-send-message disabled" type="submit" value="Login">Register</button>
                             </form>
                         </div>

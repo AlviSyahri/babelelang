@@ -58,17 +58,6 @@
                                 <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
                             </ul>
-                            <div class="newsletter-area">
-                                <h3>NewsLetter Sign Up!</h3>
-                                <div class="input-group stylish-input-group">
-                                    <input type="text" class="form-control" placeholder="E-mail . . .">
-                                    <span class="input-group-addon">
-							                        <button type="submit">
-							                            <i class="fa fa-chevron-right" aria-hidden="true"></i>
-							                        </button>  
-							                    </span>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -78,24 +67,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-                        <p>© 2016 Metro All Rights Reserved. Designed by<a href="http://radiustheme.com"
-                                                                           target="_blank"> RadiusTheme</a></p>
-                    </div>
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <ul class="payment-method">
-                            <li>
-                                <a href="#"><img src="img/payment-method1.jpg" alt="payment-method"></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="img/payment-method2.jpg" alt="payment-method"></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="img/payment-method3.jpg" alt="payment-method"></a>
-                            </li>
-                            <li>
-                                <a href="#"><img src="img/payment-method4.jpg" alt="payment-method"></a>
-                            </li>
-                        </ul>
+                        <p>© 2018 BabeLelang All Rights Reserved. 
                     </div>
                 </div>
             </div>

@@ -17,7 +17,7 @@
                                 <ul>
                                     <li><a href="login-registration.html"><i class="fa fa-lock" aria-hidden="true"></i> Account</a></li>
                                     <li><a href="wishlist.html"><i class="fa fa-heart-o" aria-hidden="true"></i> Wishlist</a></li>
-                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> USD</a></li>
+                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> Rp</a></li>
                                 </ul>
                             </div>
                         </div>
