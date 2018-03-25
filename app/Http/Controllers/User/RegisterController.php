@@ -81,9 +81,10 @@ class RegisterController extends Controller
             $data->role=1;
             $data->dob="2015-10-28";
             $data->saldo=0;
+            $data->flag_delete=0;
             $data->save();
             Auth::login($data);
             return view('index');
         }
-      }
-}
+    }
+  }
