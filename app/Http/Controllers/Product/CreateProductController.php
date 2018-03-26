@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Product;
 
 use Illuminate\Http\Request;
 use App\Model\Product;
-use App\Model\ProductCategory;
+use App\Model\Product_Category;
 use App\Model\Picture;
 use App\Http\Controllers\Controller;
 use Validator;
@@ -14,7 +14,7 @@ use DB;
 class CreateProductController extends Controller
 {
 	public function ViewCreateProduct(Request $request){
-		$data=ProductCategory::Where('flag_delete',0)->get();
+		$data=Product_Category::Where('flag_delete',0)->get();
         return view('admin.Product.AdminCreateProduct',compact('data'));
 	}
 
