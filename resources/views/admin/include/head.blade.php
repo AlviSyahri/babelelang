@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="{{url('assets/css/themify-icons.css')}}">
     <link rel="stylesheet" href="{{url('assets/css/flag-icon.min.css')}}">
     <link rel="stylesheet" href="{{url('assets/css/cs-skin-elastic.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/lib/datatable/dataTables.bootstrap.min.css')}}">
     <!-- <link rel="stylesheet" href="{{url('assets/css/bootstrap-select.less')}}"> -->
     <link rel="stylesheet" href="{{url('assets/scss/style.css')}}">
     <link href="{{url('assets/css/lib/vector-map/jqvmap.min.css')}}" rel="stylesheet">

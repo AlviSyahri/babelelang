@@ -26,6 +26,10 @@ Route::post('/registration','User\RegisterController@doRegister');
 Route::post('/login','User\RegisterController@doLogin');
 Route::get('/logout','User\LogoutController@doLogout');
 
+//Product
+Route::get('/productcreate','Product\CreateProductController@ViewCreateProduct');
+Route::post('/productcreate','Product\CreateProductController@CreateProduct');
+
 //	Admin
 Route::get('admin/', function () {
     return view('admin.index');
@@ -35,6 +39,7 @@ Route::get('admin/login', function () {
     return view('admin.login');
 });
 
-//Product
-Route::get('/productcreate','Product\CreateProductController@ViewCreateProduct');
-Route::post('/productcreate','Product\CreateProductController@CreateProduct');
+Route::get('admin/user_list', function () {
+    return view('admin.user_list');
+});
+
