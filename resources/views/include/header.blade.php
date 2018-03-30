@@ -7,17 +7,17 @@
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="header-contact">
                                 <ul>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> 085 862 842 669</a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> sevenplaces07@gmail.com</a></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> 085 862 842 669</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> support@babelelang.com</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="account-wishlist">
                                 <ul>
+                                    <li><a href="#"></i> Rp</a></li>
                                     <li><a href="/registration"></i>Daftar</a></li>
                                     <li><a href="/login"></i>Masuk</a></li>
-                                    <li><a href="#"></i> Rp</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -142,6 +142,7 @@
                                         </ul>
                                     </div>
                                 </li>
+                                <!--
                                 <li>
                                     <div class="additional-menu-area" id="additional-menu-area">
                                         <div id="mySidenav" class="sidenav">
@@ -201,11 +202,14 @@
                                                 <li><a href="shop2.html"><i class="flaticon-dress"></i>Kid’s Wear</a></li>
                                                 <li><a href="shop3.html"><i class="flaticon-technology"></i>Mobile</a></li>
                                             </ul>
-                                            <!-- times-->
+                                            
                                         </div>
                                         <span class="side-menu-open side-menu-trigger"><i class="fa fa-bars" aria-hidden="true"></i></span>
                                     </div>
                                 </li>
+
+                                -->
+
                             </ul>
                         </div>
                     </div>
