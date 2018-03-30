@@ -7,8 +7,8 @@
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="header-contact">
                                 <ul>
-                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> + 123 456 7890</a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> info@metro.com</a></li>
+                                    <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> 085 862 842 669</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> sevenplaces07@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -17,7 +17,7 @@
                                 <ul>
                                     <li><a href="login-registration.html"><i class="fa fa-lock" aria-hidden="true"></i> Account</a></li>
                                     <li><a href="wishlist.html"><i class="fa fa-heart-o" aria-hidden="true"></i> Wishlist</a></li>
-                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> USD</a></li>
+                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> Rp</a></li>
                                 </ul>
                             </div>
                         </div>

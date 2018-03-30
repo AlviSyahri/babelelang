@@ -9,14 +9,21 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="login-registration-field">
                             <h2 class="cart-area-title">Login</h2>
-                            <form>
+                            <form method="POST" action="/doRegister">
+                                @csrf
                                 <label>Username or email address *</label>
-                                <input type="text" placeholder="Name or E-mail" />
+                                <input type="text" placeholder="ex: felix@babelelang.com" />
                                 <label>Password *</label>
                                 <input type="password" placeholder="Password" />
-                                <label class="check">Lost your password?</label>
-                                <button class="btn-send-message disabled" type="submit" value="Login">Login</button>
-                                <span><input type="checkbox" name="remember"/>Remember Me</span>
+								<span class="pull-left"><input type="checkbox" name="remember"/>Remember Me</span>
+                                <a href="#"><label class="pull-right">Lost your password?</label></a>
+                                <br>
+								<br>
+								<br>
+                                <div>
+                                    <button class="btn-send-message disabled" type="submit" value="Login">Login</button>
+                                </div>
+                                
                             </form>
                         </div>
                     </div>

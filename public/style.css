@@ -8285,7 +8285,7 @@ ul {
   }
 }
 .login-registration-page-area .login-registration-field label {
-  width: 100%;
+  /*width: 100%;*/
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 12px;
