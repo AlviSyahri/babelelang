@@ -66,7 +66,7 @@ class CreateProductController extends Controller
                     $image->move($path, $filename);
                 }
             }
-
+            
         	$product = new Product;
         	$product->product_name			= $request->product_name;
         	$product->product_description	= $request->product_description;

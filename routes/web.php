@@ -33,8 +33,10 @@ Route::get('/logout','User\LogoutController@doLogout');
 
 //Product
 Route::get('/productcreate','Product\CreateProductController@ViewCreateProduct');
-Route::post('/productcreate','Product\CreateProductController@CreateProduct');
-
+Route::POST('/productcreate','Product\CreateProductController@CreateProduct');
+Route::get('produk/addProduct', function () {
+	return view('produk.addProduct');
+});
 //	Admin
 Route::get('admin/', function () {
     return view('admin.index');
@@ -48,6 +50,3 @@ Route::get('admin/user_list', function () {
     return view('admin.user_list');
 });
 
-Route::get('produk/addProduct', function () {
-	return view('produk.addProduct');
-});
