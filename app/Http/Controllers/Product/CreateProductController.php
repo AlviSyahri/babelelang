@@ -40,7 +40,7 @@ class CreateProductController extends Controller
     		'max_price'						=>'required'							
     	],$message);
 
-		$imagevalidator = Validator::make($req->all(),[
+		$imagevalidator = Validator::make($request->all(),[
             'picture_name' => 'mimes:jpeg,jpg,png,gif|max:25000',
         ],$message);
 
@@ -52,9 +52,9 @@ class CreateProductController extends Controller
         else{
             $filename = "";
             $path     ='Products/';
-            $image = $req->file('image');
+            $image = $request->file('image');
 
-            if($req->hasfile('image')){
+            if($request->hasfile('image')){
                 if($imagevalidator->fails()){
                     return redirect()
                         ->back()
@@ -77,7 +77,9 @@ class CreateProductController extends Controller
         	$product->expired_bid			= $request->expired_bid;
         	$product->max_price				= $request->max_price;
 			$product->category_id 			= $request->category_id;
-        	$product->Created_by			= Auth::user()->name;
+        	//$product->Created_by			= Auth::user()->name;
+            $product->user_id               = $request->user_id;
+            $product->Created_by            = "Admin";
             $product->flag_delete			= 0;
             $product->save();
             $picture = new Picture;

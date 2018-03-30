@@ -84,7 +84,7 @@ class RegisterController extends Controller
             $data->flag_delete=0;
             $data->save();
             Auth::login($data);
-            return view('index');
+            return redirect('/');
         }
     }
   }
