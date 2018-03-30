@@ -36,6 +36,12 @@
     <script src="{{url('js/jquery.scrollUp.min.js')}}" type="text/javascript"></script>
     <!-- Isotope js -->
     <script src="{{url('js/isotope.pkgd.min.js')}}" type="text/javascript"></script>
+	<!-- Select2 Js -->
+    <script src="{{url('js/select2.min.js')}}" type="text/javascript"></script>
+    <!-- Nouislider Js -->
+    <script src="{{url('vendor/noUiSlider/nouislider.min.js')}}" type="text/javascript"></script>
+    <!-- wNumb Js -->
+    <script src="{{url('js/wNumb.js')}}" type="text/javascript"></script>
     <!-- Custom Js -->
     <script src="{{url('js/main.js')}}" type="text/javascript"></script>
 </body>

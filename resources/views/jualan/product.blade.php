@@ -1,26 +1,5 @@
- 
 @extends('layout.main')
 @section('content')
-
-
-
- <div class="inner-page-banner-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="breadcrumb-area">
-                            <h1>Product Details</h1>
-                            <ul>
-                                <li><a href="#">Home</a> /</li>
-                                <li>Product /</li>
-                                <li>Details</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Inner Page Banner Area End Here -->
         <!-- Product Details1 Area Start Here -->
         <div class="product-details1-area">
             <div class="container">
@@ -421,4 +400,4 @@
             </div>
         </div>
         <!-- Product Details1 Area End Here -->
-        @stop
+@stop

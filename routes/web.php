@@ -19,6 +19,11 @@ Route::get('/', function () {
 Route::get('registration', function () {
     return view('user.registration');
 });
+
+Route::get('product', function () {
+    return view('jualan.product');
+});
+
 Route::get('login', function () {
     return view('user.login');
 });
