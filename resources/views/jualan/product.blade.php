@@ -36,7 +36,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner-product-details-right">
-                                            <h3>Product Title Here</h3>
+                                            <h3>Nama Barangnya Boii</h3>
                                             <ul>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -44,64 +44,21 @@
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                             </ul>
-                                            <p class="price">$59.00</p>
-                                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tinc amet risus consectetur, non consectetur nisl finibus.</p>
+                                            <p class="price">Rp. </p>
+                                            <p>keterangan product</p>
                                             <div class="product-details-content">
-                                                <p><span>SKU:</span> 0010</p>
-                                                <p><span>Availability:</span> In stock</p>
-                                                <p><span>Category:</span> Demo Products</p>
+                                                <p><span>Stok:</span> stok nya ada berapa</p>
+                                                <p><span>Kategori:</span> ini untuk kategori</p>
                                             </div>
-                                            
-                                                    <li>
-                                                       <form id="checkout-form">
-                                                <ul class="more-option">
-                                                    <li>
-                                                        <div class="form-group">
-                                                            <div class="custom-select">
-                                                                <select id="size" class='select2'>
-                                                                    <option value="0">Select Your Size</option>
-                                                                    <option value="1">XL</option>
-                                                                    <option value="2">L</option>
-                                                                    <option value="3">M</option>
-                                                                    <option value="4">S</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </li> <div class="form-group">
-                                                            <div class="custom-select">
-                                                                <select id="color" class='select2'>
-                                                                    <option value="0">Select Your Color</option>
-                                                                    <option value="1">Black</option>
-                                                                    <option value="2">White</option>
-                                                                    <option value="3">Blue</option>
-                                                                    <option value="4">Green</option>
-                                                                    <option value="5">Pink</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
                                                 <ul class="inner-product-details-cart">
-                                                    <li>
-                                                        <div class="input-group quantity-holder" id="quantity-holder">
-                                                            <input type="text" name='quantity' class="form-control quantity-input" value="1" placeholder="1">
-                                                            <div class="input-group-btn-vertical">
-                                                                <button class="btn btn-default quantity-plus" type="button"><i class="fa fa-plus" aria-hidden="true"></i></button>
-                                                                <button class="btn btn-default quantity-minus" type="button"><i class="fa fa-minus" aria-hidden="true"></i></button>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li><a href="#">Add To Cart</a></li>
-                                                    <li><a href="#"><i aria-hidden="true" class="fa fa-heart-o"></i></a></li>
+                                                    <li><a href="#">Tambah ke keranjang</a></li>
                                                     <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
                                                 </ul>
                                             </form>
                                             <ul class="product-details-social">
-                                                <li>Share on:</li>
+                                                <li>Bagikan:</li>
                                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -111,9 +68,8 @@
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <ul>
-                                            <li class="active"><a href="#description" data-toggle="tab" aria-expanded="false">Description</a></li>
-                                            <li><a href="#review" data-toggle="tab" aria-expanded="false">Review(0)</a></li>
-                                            <li><a href="#add-tags" data-toggle="tab" aria-expanded="false">ADD TAGS</a></li>
+                                            <li class="active"><a href="#description" data-toggle="tab" aria-expanded="false">Detail</a></li>
+                                            <li><a href="#review" data-toggle="tab" aria-expanded="false">Ulasan</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-12 col-md-12 col-sm-12">
@@ -122,9 +78,6 @@
                                                 <p>Porem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                                             </div>
                                             <div class="tab-pane fade" id="review">
-                                                <p>Porem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
-                                            </div>
-                                            <div class="tab-pane fade" id="add-tags">
                                                 <p>Porem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                                             </div>
                                         </div>

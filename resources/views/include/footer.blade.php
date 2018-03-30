@@ -5,14 +5,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
-                            <h3>Information</h3>
+                            <h3>Informasi</h3>
                             <ul class="info-list">
-                                <li><a href="about.html">About us</a></li>
-                                <li><a href="#">Customer Service</a></li>
-                                <li><a href="#">Manufacturers</a></li>
-                                <li><a href="#">Privacy policy</a></li>
-                                <li><a href="#">Terms & condition</a></li>
-                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="about.html">Tentang Kita</a></li>
+                                <li><a href="#">Hubungi Kami</a></li>
+                                <li><a href="#">kebijakan privasi</a></li>
+                                <li><a href="#">Syarat & Ketentuan</a></li>
                             </ul>
                         </div>
                     </div>
@@ -20,12 +18,11 @@
                         <div class="footer-box">
                             <h3>My Account</h3>
                             <ul class="info-list">
-                                <li><a href="login-registration.html">My Account</a></li>
-                                <li><a href="login-registration.html">Login</a></li>
-                                <li><a href="wishlist.html">Order History</a></li>
+                                <li><a href="login-registration.html">Akun Saya</a></li>
+                                <!--<li><a href="login-registration.html">Login</a></li>-->
+                                <li><a href="wishlist.html">Riwayat Pembelanjaan</a></li>
                                 <li><a href="wishlist.html">Wish List</a></li>
-                                <li><a href="cart.html">View Cart</a></li>
-                                <li><a href="blog.html">Latest Post</a></li>
+                                <li><a href="cart.html">Lihat Keranjang</a></li>
                             </ul>
                         </div>
                     </div>
@@ -53,10 +50,7 @@
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
