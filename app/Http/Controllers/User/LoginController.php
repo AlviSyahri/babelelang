@@ -21,7 +21,7 @@ class LoginController extends Controller
 
     	if($user == true){
     		if(Hash::check($password,$user->password)){
-    			if ($user->user_activation	==	0) {
+    			if ($user->user_activation	==	1) {
                     if($user->flag_delete == 0){
     				    Auth::Login($user);
     				    return redirect('/');
