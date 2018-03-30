@@ -15,8 +15,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="account-wishlist">
                                 <ul>
-                                    <li><a href="login-registration.html"><i class="fa fa-lock" aria-hidden="true"></i> Account</a></li>
-                                    <li><a href="/login"></i> Login</a></li>
+                                    <li><a href="/registration"></i>Daftar</a></li>
+                                    <li><a href="/login"></i>Masuk</a></li>
                                     <li><a href="#"></i> Rp</a></li>
                                 </ul>
                             </div>
