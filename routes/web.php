@@ -48,3 +48,6 @@ Route::get('admin/user_list', function () {
     return view('admin.user_list');
 });
 
+Route::get('produk/addProduct', function () {
+	return view('produk.addProduct');
+});
