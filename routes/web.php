@@ -15,15 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-//	User
+//User
 Route::get('registration', function () {
     return view('user.registration');
 });
-
-Route::get('product', function () {
-    return view('jualan.product');
-});
-
 Route::get('login', function () {
     return view('user.login');
 });
@@ -32,11 +27,15 @@ Route::post('/login','User\LoginController@doLogin');
 Route::get('/logout','User\LogoutController@doLogout');
 
 //Product
+Route::get('viewProduct', function () {
+    return view('product.viewProduct');
+});
 Route::get('/productcreate','Product\CreateProductController@ViewCreateProduct');
 Route::POST('/productcreate','Product\CreateProductController@CreateProduct');
-Route::get('produk/addProduct', function () {
-	return view('produk.addProduct');
+Route::get('addProduct', function () {
+	return view('product.addProduct');
 });
+
 //	Admin
 Route::get('admin/', function () {
     return view('admin.index');
