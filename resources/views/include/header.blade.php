@@ -220,7 +220,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4">
-                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Categories</h2>
+                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Kategori</h2>
                         <div class="logo-area">
                             <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
                         </div>
