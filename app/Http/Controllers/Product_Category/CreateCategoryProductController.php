@@ -17,11 +17,17 @@ class CreateCategoryProductController extends Controller
         	'product_category_name'		=>'required'
         ],$message);
 
+        if($validator->fails()){
+        	return redirect()->back()
+                        ->withErrors($validator)
+                        ->withInput();
+        }
+        else{
             $category = new Product_Category;
         	$category->product_category_name=$request->product_category_name;
         	$category->flag_delete=0;
             $category->save();
-            
+        }
         return redirect('/admin');
 	}    
 }
