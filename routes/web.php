@@ -28,7 +28,7 @@ Route::get('login', function () {
     return view('user.login');
 });
 Route::post('/registration','User\RegisterController@doRegister');
-Route::post('/login','User\RegisterController@doLogin');
+Route::post('/login','User\LoginController@doLogin');
 Route::get('/logout','User\LogoutController@doLogout');
 
 //Product

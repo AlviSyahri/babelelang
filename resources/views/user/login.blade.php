@@ -1,4 +1,4 @@
-@extends('layout.main')
+ @extends('layout.main')
 @section('content')
 
 
@@ -11,7 +11,16 @@
                             <h2 class="cart-area-title">Login</h2>
                             <form method="POST" action="/login">
                                 @csrf
+<<<<<<< HEAD
                                 <label>Nama Pengguna atau Alamat email</label>
+=======
+                                @if (session('alert'))
+                                    <div class="alert alert-success">
+                                        {{ session('alert') }}
+                                    </div>
+                                @endif
+                                <label>Username or email address *</label>
+>>>>>>> 7c98cf8174350ec665f7c6b41f6eeee4781b0fdc
                                 <input type="text" placeholder="ex: felix@babelelang.com" name="email" />
                                 <label>Password *</label>
                                 <input type="password" placeholder="Password" name="password" />
