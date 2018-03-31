@@ -35,27 +35,27 @@
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <div class="search-area">
                                 <div class="input-group" id="adv-search">
-                                    <input type="text" class="form-control" placeholder="Search Product" />
+                                    <input type="text" class="form-control" placeholder="Cari Product" />
                                     <div class="input-group-btn">
                                         <div class="btn-group" role="group">
                                             <div class="dropdown dropdown-lg">
                                                 <button type="button" class="btn btn-metro dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                    <span>All Categories</span>
+                                                    <span>Semua Kategori</span>
                                                     <i class="fa fa-caret-up" aria-hidden="true"></i>
                                                     <i class="fa fa-caret-down" aria-hidden="true"></i>
                                                 </button>
                                                 <div class="dropdown-menu dropdown-menu-right" role="menu">
                                                     <ul class="sidenav-nav">
-                                                        <li><a href="#"><i class="flaticon-dress-1"></i>Women</a></li>
-                                                        <li><a href="#"><i class="flaticon-polo"></i>Men</a></li>
-                                                        <li><a href="#"><i class="flaticon-plug"></i>Electornics</a></li>
-                                                        <li><a href="#"><i class="flaticon-necklace"></i>Jewellery</a></li>
-                                                        <li><a href="#"><i class="flaticon-screen"></i>Computer</a></li>
+                                                        <li><a href="#"><i class="flaticon-dress-1"></i>Wanita</a></li>
+                                                        <li><a href="#"><i class="flaticon-polo"></i>Pria</a></li>
+                                                        <li><a href="#"><i class="flaticon-plug"></i>Elektronik</a></li>
+                                                        <li><a href="#"><i class="flaticon-necklace"></i>Perhiasan</a></li>
+                                                        <li><a href="#"><i class="flaticon-screen"></i>Komputer</a></li>
                                                         <li><a href="#"><i class="flaticon-headphones"></i>Head Phone</a></li>
-                                                        <li><a href="#"><i class="flaticon-transport"></i>Toys</a></li>
-                                                        <li><a href="#"><i class="flaticon-fashion"></i>Shoes</a></li>
-                                                        <li><a href="#"><i class="flaticon-dress"></i>Kid’s Wear</a></li>
-                                                        <li><a href="#"><i class="flaticon-technology"></i>Mobile</a></li>
+                                                        <li><a href="#"><i class="flaticon-transport"></i>Mainan</a></li>
+                                                        <li><a href="#"><i class="flaticon-fashion"></i>Sepatu</a></li>
+                                                        <li><a href="#"><i class="flaticon-dress"></i>Pakaian Anak-anak</a></li>
+                                                        <li><a href="#"><i class="flaticon-technology"></i>Seluler</a></li>
                                                     </ul>
                                                 </div>
                                             </div>

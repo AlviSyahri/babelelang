@@ -36,7 +36,7 @@
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner-product-details-right">
-                                            <h3>Nama Barangnya Boii</h3>
+                                            <h3>Nama Barang</h3>
                                             <ul>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>

@@ -8,49 +8,49 @@
                     <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
                         <div class="category-menu-area close-on-tab" id="category-menu-area">
                             <ul>
-                                <li><a href="shop1.html"><i class="flaticon-dress-1"></i>Women<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop1.html"><i class="flaticon-dress-1"></i>Wanita<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Women Sub Title 1</a></li>
-                                        <li><a href="#">Women Sub Title 2</a></li>
-                                        <li><a href="#">Women Sub Title 3</a></li>
-                                        <li><a href="#">Women Sub Title 4</a></li>
-                                        <li><a href="#">Women Sub Title 5</a></li>
+                                        <li><a href="#">Wanita Sub Title 1</a></li>
+                                        <li><a href="#">Wanita Sub Title 2</a></li>
+                                        <li><a href="#">Wanita Sub Title 3</a></li>
+                                        <li><a href="#">Wanita Sub Title 4</a></li>
+                                        <li><a href="#">Wanita Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop2.html"><i class="flaticon-polo"></i>Men<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop2.html"><i class="flaticon-polo"></i>Pria<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Men Sub Title 1</a></li>
-                                        <li><a href="#">Men Sub Title 2</a></li>
-                                        <li><a href="#">Men Sub Title 3</a></li>
-                                        <li><a href="#">Men Sub Title 4</a></li>
-                                        <li><a href="#">Men Sub Title 5</a></li>
+                                        <li><a href="#">Pria Sub Title 1</a></li>
+                                        <li><a href="#">Pria Sub Title 2</a></li>
+                                        <li><a href="#">Pria Sub Title 3</a></li>
+                                        <li><a href="#">Pria Sub Title 4</a></li>
+                                        <li><a href="#">Pria Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop3.html"><i class="flaticon-plug"></i>Electornics<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop3.html"><i class="flaticon-plug"></i>Elektronik<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Electornics Sub Title 1</a></li>
-                                        <li><a href="#">Electornics Sub Title 2</a></li>
-                                        <li><a href="#">Electornics Sub Title 3</a></li>
-                                        <li><a href="#">Electornics Sub Title 4</a></li>
-                                        <li><a href="#">Electornics Sub Title 5</a></li>
+                                        <li><a href="#">Elektronik Sub Title 1</a></li>
+                                        <li><a href="#">Elektronik Sub Title 2</a></li>
+                                        <li><a href="#">Elektronik Sub Title 3</a></li>
+                                        <li><a href="#">Elektronik Sub Title 4</a></li>
+                                        <li><a href="#">Elektronik Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop4.html"><i class="flaticon-necklace"></i>Jewellery<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop4.html"><i class="flaticon-necklace"></i>Perhiasan<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Jewellery Sub Title 1</a></li>
-                                        <li><a href="#">Jewellery Sub Title 2</a></li>
-                                        <li><a href="#">Jewellery Sub Title 3</a></li>
-                                        <li><a href="#">Jewellery Sub Title 4</a></li>
-                                        <li><a href="#">Jewellery Sub Title 5</a></li>
+                                        <li><a href="#">Perhiasan Sub Title 1</a></li>
+                                        <li><a href="#">Perhiasan Sub Title 2</a></li>
+                                        <li><a href="#">Perhiasan Sub Title 3</a></li>
+                                        <li><a href="#">Perhiasan Sub Title 4</a></li>
+                                        <li><a href="#">Perhiasan Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop5.html"><i class="flaticon-screen"></i>Computer<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop5.html"><i class="flaticon-screen"></i>Komputer<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Computer Sub Title 1</a></li>
-                                        <li><a href="#">Computer Sub Title 2</a></li>
-                                        <li><a href="#">Computer Sub Title 3</a></li>
-                                        <li><a href="#">Computer Sub Title 4</a></li>
-                                        <li><a href="#">Computer Sub Title 5</a></li>
+                                        <li><a href="#">Komputer Sub Title 1</a></li>
+                                        <li><a href="#">Komputer Sub Title 2</a></li>
+                                        <li><a href="#">Komputer Sub Title 3</a></li>
+                                        <li><a href="#">Komputer Sub Title 4</a></li>
+                                        <li><a href="#">Komputer Sub Title 5</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="shop6.html"><i class="flaticon-headphones"></i>Head Phone<span><i class="flaticon-next"></i></span></a>
@@ -62,40 +62,40 @@
                                         <li><a href="#">Head Phone Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop1.html"><i class="flaticon-transport"></i>Toys<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop1.html"><i class="flaticon-transport"></i>Mainan<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Toys Sub Title 1</a></li>
-                                        <li><a href="#">Toys Sub Title 2</a></li>
-                                        <li><a href="#">Toys Sub Title 3</a></li>
-                                        <li><a href="#">Toys Sub Title 4</a></li>
-                                        <li><a href="#">Toys Sub Title 5</a></li>
+                                        <li><a href="#">Mainan Sub Title 1</a></li>
+                                        <li><a href="#">Mainan Sub Title 2</a></li>
+                                        <li><a href="#">Mainan Sub Title 3</a></li>
+                                        <li><a href="#">Mainan Sub Title 4</a></li>
+                                        <li><a href="#">Mainan Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop1.html"><i class="flaticon-fashion"></i>Shoes<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop1.html"><i class="flaticon-fashion"></i>Sepatu<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Shoes Sub Title 1</a></li>
-                                        <li><a href="#">Shoes Sub Title 2</a></li>
-                                        <li><a href="#">Shoes Sub Title 3</a></li>
-                                        <li><a href="#">Shoes Sub Title 4</a></li>
-                                        <li><a href="#">Shoes Sub Title 5</a></li>
+                                        <li><a href="#">Sepatu Sub Title 1</a></li>
+                                        <li><a href="#">Sepatu Sub Title 2</a></li>
+                                        <li><a href="#">Sepatu Sub Title 3</a></li>
+                                        <li><a href="#">Sepatu Sub Title 4</a></li>
+                                        <li><a href="#">Sepatu Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop1.html"><i class="flaticon-dress"></i>Kid’s Wear<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop1.html"><i class="flaticon-dress"></i>Pakaian Anak-anak<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Kid’s Wear Sub Title 1</a></li>
-                                        <li><a href="#">Kid’s Wear Sub Title 2</a></li>
-                                        <li><a href="#">Kid’s Wear Sub Title 3</a></li>
-                                        <li><a href="#">Kid’s Wear Sub Title 4</a></li>
-                                        <li><a href="#">Kid’s Wear Sub Title 5</a></li>
+                                        <li><a href="#">Pakaian Anak-anak Sub Title 1</a></li>
+                                        <li><a href="#">Pakaian Anak-anak Sub Title 2</a></li>
+                                        <li><a href="#">Pakaian Anak-anak Sub Title 3</a></li>
+                                        <li><a href="#">Pakaian Anak-anak Sub Title 4</a></li>
+                                        <li><a href="#">Pakaian Anak-anak Sub Title 5</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="shop1.html"><i class="flaticon-technology"></i>Mobile<span><i class="flaticon-next"></i></span></a>
+                                <li><a href="shop1.html"><i class="flaticon-technology"></i>Seluler<span><i class="flaticon-next"></i></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="#">Mobile Sub Title 1</a></li>
-                                        <li><a href="#">Mobile Sub Title 2</a></li>
-                                        <li><a href="#">Mobile Sub Title 3</a></li>
-                                        <li><a href="#">Mobile Sub Title 4</a></li>
-                                        <li><a href="#">Mobile Sub Title 5</a></li>
+                                        <li><a href="#">Seluler Sub Title 1</a></li>
+                                        <li><a href="#">Seluler Sub Title 2</a></li>
+                                        <li><a href="#">Seluler Sub Title 3</a></li>
+                                        <li><a href="#">Seluler Sub Title 4</a></li>
+                                        <li><a href="#">Seluler Sub Title 5</a></li>
                                     </ul>
                                 </li>
                             </ul>
@@ -105,7 +105,7 @@
                         <div class="main-slider1">
                             <div class="bend niceties preview-2">
                                 <div id="ensign-nivoslider-2" class="slides">
-                                    <img src="img/slider-1/slider-2.jpg" alt="" title="#slider-direction-1" />
+                                    <img src="img/test.jpg" alt="" title="#slider-direction-1" />
                                     <img src="img/slider-1/slider-2.jpg" alt="" title="#slider-direction-2" />
                                 </div>
                                 <!-- direction 1 -->
@@ -116,7 +116,7 @@
                                 <div id="slider-direction-2" class="t-cn slider-direction">
                                     <!-- layer 1 -->
                                     <div class="layer-1">
-                                        <img src="img/slider-1/layer2-4.png" alt="" />
+                                        <img src="img/test.jpg" alt="" />
                                     </div>
                                     <!-- layer 2 -->
                                     <div class="layer-2">
@@ -146,9 +146,9 @@
                                 </a>
                                 <div class="media-body">
                                     <span>360 Gear</span>
-                                    <h3><a href="#">Brand Name</a></h3>
-                                    <p>Camera</p>
-                                    <a href="#" class="btn-shop-now">Shop Now<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    <h3><a href="#">Nama Merek</a></h3>
+                                    <p>Kamera</p>
+                                    <a href="#" class="btn-shop-now">Belanja Sekarang!<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -163,7 +163,7 @@
                                     <span>Casual Shoes</span>
                                     <h3><a href="#">Brand Name</a></h3>
                                     <p>Top-Brand</p>
-                                    <a href="#" class="btn-shop-now">Shop Now<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    <a href="#" class="btn-shop-now">Belanja Sekarang!<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                     <span>100% Leather</span>
                                     <h3><a href="#">Brand Name</a></h3>
                                     <p>Mountain</p>
-                                    <a href="#" class="btn-shop-now">Shop Now<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+                                    <a href="#" class="btn-shop-now">Belanja Sekarang<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="isotop-classes-tab myisotop1">
-                            <a href="#" data-filter=".on-sale" class="current">On Sale</a>
+                            <a href="#" data-filter=".on-sale" class="current">Dijual</a>
                             <a href="#" data-filter=".featured">Featured</a>
                             <a href="#" data-filter=".popular">Popular</a>
                         </div>
@@ -333,12 +333,12 @@
                             </ul>
                             <div class="product-img-holder">
                                 <div class="hot-sale">
-                                    <span>New</span>
+                                    <span>Baru</span>
                                 </div>
                                 <a href="#"><img src="img/product/8.jpg" alt="product"></a>
                             </div>
                             <div class="product-content-holder">
-                                <h3><a href="#">Product Title Here</a></h3>
+                                <h3><a href="#">Judul Disini</a></h3>
                                 <span>$58.00</span>
                             </div>
                         </div>
@@ -374,7 +374,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h2 class="title-carousel">Best Seller</h2>
+                        <h2 class="title-carousel">Penjualan Terbaik</h2>
                     </div>
                 </div>
                 <div class="metro-carousel" data-loop="true" data-items="3" data-margin="15" data-autoplay="false" data-autoplay-timeout="10000" data-smart-speed="2000" data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="2" data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="2" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="2" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="3" data-r-large-nav="true" data-r-large-dots="false">
@@ -643,8 +643,8 @@
                                     <i class="flaticon-truck"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h3>FREE SHIPPING</h3>
-                                    <p>On All Orders</p>
+                                    <h3>Pengiriman Gratis</h3>
+                                    <p>Pada Semua Pesanan</p>
                                 </div>
                             </div>
                         </div>
@@ -656,7 +656,7 @@
                                     <i class="flaticon-headphones"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h3>24/7 SERVICE</h3>
+                                    <h3>Pelayanan 24/7</h3>
                                     <p>Get Help When You Need</p>
                                 </div>
                             </div>

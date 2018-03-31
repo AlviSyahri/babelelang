@@ -11,12 +11,12 @@
                             <h2 class="cart-area-title">Login</h2>
                             <form method="POST" action="/login">
                                 @csrf
-                                <label>Username or email address *</label>
+                                <label>Nama Pengguna atau Alamat email</label>
                                 <input type="text" placeholder="ex: felix@babelelang.com" name="email" />
                                 <label>Password *</label>
                                 <input type="password" placeholder="Password" name="password" />
 								<span class="pull-left"><input type="checkbox" name="remember"/>Remember Me</span>
-                                <a href="#"><label class="pull-right">Lost your password?</label></a>
+                                <a href="#"><label class="pull-right">Lupa Password?</label></a>
                                 <br>
 								<br>
 								<br>
