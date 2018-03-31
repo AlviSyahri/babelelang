@@ -16,7 +16,7 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
-                            <h3>My Account</h3>
+                            <h3>Akun Saya</h3>
                             <ul class="info-list">
                                 <li><a href="login-registration.html">Akun Saya</a></li>
                                 <!--<li><a href="login-registration.html">Login</a></li>-->
@@ -26,7 +26,9 @@
                             </ul>
                         </div>
                     </div>
+                    
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <!--
                         <div class="footer-box">
                             <h3>Product Tag</h3>
                             <ul class="tag-list">
@@ -42,11 +44,14 @@
                                 <li><a href="#">Leather</a></li>
                             </ul>
                         </div>
+                        -->
                     </div>
+                    
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
-                            <h3>Stay With Us</h3>
-                            <p>Tmply dummy text of the printing and typesetting industry nummy ever.</p>
+                            <h3>Kontak</h3>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> support@babelelang.com</a></p>
+                            <p><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> 085 862 842 669</a></p>
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>

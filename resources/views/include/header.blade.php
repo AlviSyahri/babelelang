@@ -229,7 +229,7 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
-                                    <li class="active"><a href="#">Home</a>
+                                    <li class="active"><a href="#">Branda</a>
                                         <ul>
                                             <li><a class="active" href="index.html">Home 1</a></li>
                                             <li><a href="index2.html">Home 2</a></li>
@@ -237,7 +237,8 @@
                                             <li><a href="index4.html">Home 4</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="about.html">Tentang Kami</a></li>
+                                    <!--
                                     <li><a href="#">Blog</a>
                                         <ul>
                                             <li><a href="blog.html">Blog</a></li>
@@ -250,7 +251,8 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">Pages</a>
+                                    -->
+                                    <li><a href="#">Halaman</a>
                                         <ul class="mega-menu-area">
                                             <li>
                                                 <a href="index.html">Home 1</a>
@@ -290,7 +292,15 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#">Contact</a>
+                                        <ul>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com">E-mail</a></li>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669">Telepon</a></li>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                                        </ul>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
