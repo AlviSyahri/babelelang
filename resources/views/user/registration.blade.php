@@ -16,11 +16,11 @@
                 <form enctype="true" method="POST" action="/registration">
                     @csrf
                     <label>Nama Lengkap</label>
-                    <input type="text" placeholder="Nama Lengkap" name="nama" />
+                    <input type="text" placeholder="Contoh: Felix Syahri Ferdinand" name="nama" />
                     <label>E-mail </label>
-                    <input type="text" placeholder="E-mail" name="email" />
+                    <input type="text" placeholder="Contoh: abc@gmail.com" name="email" />
                     <label>No Telepon</label>
-                    <input type="text" placeholder="No Telepon" name="no_telepon" />
+                    <input type="text" placeholder="Contoh: 08100000000" name="password" />
                     <label>Jenis Kelamin </label>
                     <div>
                         <span>
@@ -31,11 +31,11 @@
                         </span>
                     </div>
                     <label>Kata Sandi</label>
-                    <input type="password" placeholder="Kata Sandi" name="password" />
+                    <input type="password" placeholder="Minimal 6 digit" name="password" />
                     <label>Konfirmasi Kata Sandi</label>
                     <input type="password" placeholder="Konfirmasi Kata Sandi" name="password_confirmation" />
                     <label>Alamat </label>
-                    <input type="textarea" placeholder="Alamat" name="alamat" />
+                    <input type="textarea" placeholder="Jl. ABC no 123, Bandung, Jawa Barat" name="alamat" />
                     <label>Foto KTP </label>
                     <input type="file" name="image1" />  
                     <label>Foto Profil </label>
