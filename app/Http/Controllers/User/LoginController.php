@@ -14,30 +14,29 @@ class LoginController extends Controller
     }
 
     public function doLogin(Request $request){
-    	$email		= $request->email;
-    	$password	= $request->password;
 
-    	$user = User::Where('email',$email)->first();
+        $users = User::where('email', $request->email)->first();
 
-    	if($user == true){
-    		if(Hash::check($password,$user->password)){
-    			if ($user->user_activation	==	1) {
-                    if($user->flag_delete == 0){
-    				    Auth::Login($user);
-    				    return redirect('/');
-                    }
-                    else{
-                        $data='Akun telah dihapus';
-                        return $data;
-                    }
-    			}
-    			else{
-    				$data='Password & Email Salah';
-    				return $data;
-    			}
-    		}
-    	}
+
+        if($users == true){
+            if(Hash::check($request->password,$users->password)){
+                if($users->role==1){
+                    Auth::login($users);
+                    return redirect('/');
+                }
+                else{
+                    Auth::login($users);
+                    return redirect('/admin');
+                }
+            }
+            else{
+                
+                 return redirect()->back()->with('alert', 'Password Salah');
+            }
+        }
+        else{
+             return redirect()->back()->with('alert', 'Account tidak ada silahkan daftar');
+        }
+
     }
-
-
 }
