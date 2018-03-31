@@ -10,7 +10,7 @@ Use Auth;
 class LoginController extends Controller
 {
     public function loginview(){
-    	return view(login);
+    	return view('user/login');
     }
 
     public function doLogin(Request $request){

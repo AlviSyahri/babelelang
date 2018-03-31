@@ -14,8 +14,7 @@ use DB;
 class CreateProductController extends Controller
 {
 	public function ViewCreateProduct(Request $request){
-		$data=Product_Category::Where('flag_delete',0)->get();
-        return view('admin.Product.AdminCreateProduct',compact('data'));
+		return view('product/addProduct');
 	}
 
 	public function CreateProduct(Request $request){

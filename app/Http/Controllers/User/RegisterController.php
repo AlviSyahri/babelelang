@@ -10,7 +10,7 @@ use Auth;
 class RegisterController extends Controller
 {
    	public function registerview(){
-   	    return view('Register');
+   	    return view('user/registration');
    	}
 
    	public function doRegister(Request $request){
@@ -84,7 +84,7 @@ class RegisterController extends Controller
             $data->flag_delete=0;
             $data->save();
             Auth::login($data);
-            return redirect('/');
+            return redirect('/home');
         }
     }
   }
