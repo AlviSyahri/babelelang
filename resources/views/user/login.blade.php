@@ -23,8 +23,7 @@
                                 <div>
                                     <button class="btn-send-message disabled" type="submit" value="Login">Login</button>
                                 </div>
-                                <a href="/registration">belum punya akun?</a>
-                                
+                                <div><a href="/registration">Belum punya akun?</a></div>
                             </form>
                         </div>
                     </div>
