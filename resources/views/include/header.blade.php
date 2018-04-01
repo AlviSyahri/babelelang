@@ -229,7 +229,7 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
-                                    <li class="active"><a href="#">Branda</a>
+                                    <li class="active"><a href="#">Beranda</a>
                                         <ul>
                                             <li><a class="active" href="index.html">Home 1</a></li>
                                             <li><a href="index2.html">Home 2</a></li>
