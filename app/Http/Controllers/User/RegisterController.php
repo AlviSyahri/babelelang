@@ -33,7 +33,7 @@ class RegisterController extends Controller
    		$validator = Validator::make($request->all(),[
     		'nama'							       =>'required',
     		'email'							       =>'required|unique:msuser|email',
-        'no_telepon'						       =>'required|between:9,21',
+        'no_telepon'						   =>'required|between:9,21',
         'alamat'						       =>'required',
     		'password'					 	     =>'required|min:6|confirmed',
     		'password_confirmation'		 =>'required|min:6',

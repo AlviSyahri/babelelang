@@ -11,15 +11,17 @@
 |
 */
 
-
+//System
 Route::get('/home','System\HomeViewController@HomeView');
+
 //User
 Route::get('/registration','User\RegisterController@registerview');
-Route::get('/login','User\LoginController@loginview');
-
 Route::post('/registration','User\RegisterController@doRegister');
+Route::get('/login','User\LoginController@loginview');
 Route::post('/login','User\LoginController@doLogin');
 Route::get('/logout','User\LogoutController@doLogout');
+Route::get('/updateprofile','User\UpdateController@updateuserview');
+Route::post('/updateprofile','User\UpdateController@updateuser');
 
 //Product
 Route::get('/viewProduct','Product\ProductViewController@ViewProduct');
