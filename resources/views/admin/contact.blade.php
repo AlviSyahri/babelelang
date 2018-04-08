@@ -1,28 +1,9 @@
  @extends('layout.main')
 @section('content')
 
-
-
-
-
-  <!-- Inner Page Banner Area Start Here -->
-        <div class="inner-page-banner-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="breadcrumb-area">
-                            <h1>Contact With US</h1>
-                            <ul>
-                                <li><a href="#">Home</a> /</li>
-                                <li>Contact</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Inner Page Banner Area End Here -->
-        <!-- Contact Us Page Area Start Here -->
+  
+        
+           <!-- Contact Us Page Area Start Here -->
         <div class="contact-us-page-area">
             <div class="container">
                 <div class="row">
@@ -38,7 +19,7 @@
                             <h2>Send Us Message</h2>
                             <div class="row">
                                 <div class="contact-form">
-                                    <form id="contact-form">
+                                    <form >
                                         <fieldset>
                                             <div class="col-sm-6">
                                                 <div class="form-group">
@@ -78,7 +59,7 @@
                         <div class="contact-us-right">
                             <h2 class="title-sidebar">Contact Info</h2>
                             <ul>
-                                <li class="con-address">59 Street, Melbourne Kazi City # 34 Road, House #10.</li>
+                                <li class="con-address"></li>
                                 <li class="con-envelope">info@metro.com</li>
                                 <li class="con-phone">+ 123 45678910
                                     <br> + 123 45678910</li>
@@ -90,4 +71,6 @@
             </div>
         </div>
         <!-- Contact Us Page Area End Here -->
+
+
         @stop
