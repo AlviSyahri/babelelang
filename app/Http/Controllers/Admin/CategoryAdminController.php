@@ -16,6 +16,6 @@ class CategoryAdminController extends Controller
 	}
 	
 	public function AddSubCategoryView(){
-		return view('add.add_sub_category');
+		return view('admin.add_sub_category');
 	}
 }
