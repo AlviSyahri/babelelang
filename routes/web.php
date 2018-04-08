@@ -13,6 +13,8 @@
 
 //System
 Route::get('/','System\HomeViewController@HomeView');
+Route::get('/contact','System\ContactViewController@viewcontact');
+
 //System-About
 Route::get('/about','System\AboutViewController@AboutView');
 
