@@ -286,7 +286,6 @@
                                             </li>
                                         </ul>
                                     </li>
-<<<<<<< HEAD
                                     <li><a href="#">Kontak</a>
                                         <ul>
                                             <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com">E-mail</a></li>
@@ -296,9 +295,7 @@
                                             <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
                                         </ul>
                                     </li>
-=======
                                     <li><a href="contact.html">Contact</a></li>
->>>>>>> 1265f5f07971d0b83933b030e12979a874008852
                                 </ul>
                             </nav>
                         </div>
