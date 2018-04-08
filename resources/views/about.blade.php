@@ -1,100 +1,10 @@
-@extends('admin.layout.mainLogin')
+@extends('layout.main')
 @section('content')
 
 
 
 
-<!-- Mobile Menu Area Start Here -->
-                    <div class="mobile-menu-area">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="mobile-menu">
-                                        <nav id="dropdown">
-                                            <ul>
-                                                <li class="active"><a href="#">Home</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Home 1</a></li>
-                                                        <li><a href="index2.html">Home 2</a></li>
-                                                        <li><a href="index3.html">Home 3</a></li>
-                                                        <li><a href="index4.html">Home 4</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about.html">About</a></li>
-                                                <li><a href="#">Blog</a>
-                                                    <ul>
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="single-blog.html">Single Blog</a></li>
-                                                        <li class="has-child-menu"><a href="#">Demo</a>
-                                                            <ul class="thired-level">
-                                                                <li><a href="#">Demo 1</a></li>
-                                                                <li><a href="#">Demo 2</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Portfolio</a>
-                                                    <ul>
-                                                        <li><a href="portfolio1.html">Portfolio 1</a></li>
-                                                        <li><a href="portfolio2.html">Portfolio 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Shop</a>
-                                                    <ul>
-                                                        <li><a href="shop1.html">Shop 1</a></li>
-                                                        <li><a href="shop2.html">Shop 2</a></li>
-                                                        <li><a href="shop3.html">Shop 3</a></li>
-                                                        <li><a href="shop4.html">Shop 4</a></li>
-                                                        <li><a href="shop5.html">Shop 5</a></li>
-                                                        <li><a href="shop6.html">Shop 6</a></li>
-                                                        <li><a href="shop7.html">Shop 7</a></li>
-                                                        <li><a href="product-details1.html">Shop Details 1</a></li>
-                                                        <li><a href="product-details2.html">Shop Details 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#">Pages</a>
-                                                    <ul>
-                                                        <li><a href="login-registration.html">Login Registration</a></li>
-                                                        <li><a href="my-account.html">My Account</a></li>
-                                                        <li><a href="cart.html">Cart</a></li>
-                                                        <li><a href="wishlist.html">Wishlist</a></li>
-                                                        <li><a href="check-out.html">Check Out</a></li>
-                                                        <li><a href="order-history.html">Order History</a></li>
-                                                        <li><a href="order-details.html">Order Details</a></li>
-                                                        <li><a href="404.html">404</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="contact.html">Contact</a></li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Mobile Menu Area End Here -->
-                </div>
-            </div>
-        </header>
-        <!-- Header Area End Here -->
-        <!-- Inner Page Banner Area Start Here -->
-        <div class="inner-page-banner-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <div class="breadcrumb-area">
-                            <h1>About Us</h1>
-                            <ul>
-                                <li><a href="#">Home</a> /</li>
-                                <li>About</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Inner Page Banner Area End Here -->
-        <!-- About Us Page Area Start Here -->
+  <!-- About Us Page Area Start Here -->
         <div class="about-us-page-area">
             <div class="container">
                 <div class="row">
@@ -105,13 +15,12 @@
                     </div>
                     <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                         <div class="about-us-page-right">
-                            <h2>Who We Are</h2>
+                            <h2>Apa Babelelang?</h2>
                             <p>
-                                <span>Morem ipsum dolor sit amet, consectetur adipisci Reit, sed do eiusmod tempor 
-                                    incididuntut magna aliquaoe velit esse.</span>
+                                <span>Babelelang adalah </span>
                             </p>
                             <p>Tummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release.</p>
-                            <p>Hmmy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release ver since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic.</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
@@ -125,7 +34,7 @@
                     <div class="col-lg-12 col-md-12 col-sm-12">
                         <div class="section-title">
                             <span class="title-bar-left"></span>
-                            <h2>Expert Team</h2>
+                            <h2>Ahli Tim</h2>
                             <span class="title-bar-right"></span>
                         </div>
                     </div>
@@ -143,8 +52,8 @@
                                 <a href="#"><img src="img/team/1.png" alt="team" class="img-responsive"></a>
                             </div>
                             <div class="team-content-holder">
-                                <h3><a href="#">Jessy Rio</a></h3>
-                                <p>Designer</p>
+                                <h3><a href="#">Dharmawan Rahadi</a></h3>
+                                <p>CEO</p>
                             </div>
                         </div>
                     </div>
@@ -160,8 +69,8 @@
                                 <a href="#"><img src="img/team/2.png" alt="team" class="img-responsive"></a>
                             </div>
                             <div class="team-content-holder">
-                                <h3><a href="#">Jack Sparo</a></h3>
-                                <p>Designer</p>
+                                <h3><a href="#">Alvi Syahri</a></h3>
+                                <p>CEO</p>
                             </div>
                         </div>
                     </div>
@@ -177,8 +86,8 @@
                                 <a href="#"><img src="img/team/3.png" alt="team" class="img-responsive"></a>
                             </div>
                             <div class="team-content-holder">
-                                <h3><a href="#">Tina Zena</a></h3>
-                                <p>Designer</p>
+                                <h3><a href="#">Fenry Ferdinand</a></h3>
+                                <p>CEO</p>
                             </div>
                         </div>
                     </div>
@@ -194,8 +103,8 @@
                                 <a href="#"><img src="img/team/4.png" alt="team" class="img-responsive"></a>
                             </div>
                             <div class="team-content-holder">
-                                <h3><a href="#">Kazi Fahim</a></h3>
-                                <p>Designer</p>
+                                <h3><a href="#">Felix Winangun</a></h3>
+                                <p>CEO</p>
                             </div>
                         </div>
                     </div>
@@ -214,8 +123,8 @@
                                     <i class="flaticon-truck"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h3>FREE SHIPPING</h3>
-                                    <p>On All Orders</p>
+                                    <h3>Gratis Pengiriman</h3>
+                                    <p>Semua Pesanan</p>
                                 </div>
                             </div>
                         </div>
@@ -227,8 +136,8 @@
                                     <i class="flaticon-headphones"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h3>24/7 SERVICE</h3>
-                                    <p>Get Help When You Need</p>
+                                    <h3>Pelayanan 24/7</h3>
+                                    <p>Dapat membantu ketika anda butuh</p>
                                 </div>
                             </div>
                         </div>
@@ -240,8 +149,8 @@
                                     <i class="flaticon-reload"></i>
                                 </a>
                                 <div class="media-body">
-                                    <h3>100% MONEY BACK</h3>
-                                    <p>Within 30 Day Guarantee</p>
+                                    <h3>100% Uang Kembali</h3>
+                                    <p>Garansi 30 Hari</p>
                                 </div>
                             </div>
                         </div>
