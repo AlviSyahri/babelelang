@@ -1,9 +1,12 @@
 <header>
     <div class="header-area-style1" id="sticker">
+        {{-- header atas --}}
         <div class="header-top">
+            {{-- header paling atas yang list abu --}}
             <div class="header-top-inner-top">
                 <div class="container">
                     <div class="row">
+                        {{-- kontak --}}
                         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                             <div class="header-contact">
                                 <ul>
@@ -12,6 +15,7 @@
                                 </ul>
                             </div>
                         </div>
+                        {{-- akun dan rp --}}
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="account-wishlist">
                                 <ul>
@@ -23,26 +27,32 @@
                     </div>
                 </div>
             </div>
+            {{-- logo + kotak search + cart + burger kanan --}}
             <div class="header-top-inner-bottom">
                 <div class="container">
                     <div class="row">
+                        {{-- logo --}}
                         <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                             <div class="logo-area">
                                 <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
                             </div>
                         </div>
+                        {{-- kotak search --}}
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <div class="search-area">
                                 <div class="input-group" id="adv-search">
                                     <input type="text" class="form-control" placeholder="Cari Barang" />
                                     <div class="input-group-btn">
                                         <div class="btn-group" role="group">
+                                            {{-- dropdown search kategori --}}
                                             <div class="dropdown dropdown-lg">
+                                                {{-- button kategori --}}
                                                 <button type="button" class="btn btn-metro dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
                                                     <span>Kategori</span>
                                                     <i class="fa fa-caret-up" aria-hidden="true"></i>
                                                     <i class="fa fa-caret-down" aria-hidden="true"></i>
                                                 </button>
+                                                {{-- isi dropdown dari kategori --}}
                                                 <div class="dropdown-menu dropdown-menu-right" role="menu">
                                                     <ul class="sidenav-nav">
                                                         <li><a href="#"><i class="flaticon-dress-1"></i>Women</a></li>
@@ -58,38 +68,51 @@
                                                     </ul>
                                                 </div>
                                             </div>
+                                            {{-- button search --}}
                                             <button type="button" class="btn btn-metro-search"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        {{-- cart + burger kanan --}}
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
                             <ul class="header-cart-area">
+                                {{-- cart full --}}
                                 <li>
                                     <div class="cart-area">
+                                        {{-- total barang di cart yang bulet --}}
                                         <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>2</span></a>
+                                        {{-- cart --}}
                                         <ul>
+                                            {{-- barang di cart 1an --}}
                                             <li>
+                                                {{-- barang di cart 1an --}}
                                                 <div class="cart-single-product">
                                                     <div class="media">
+                                                        {{-- gambar barang --}}
                                                         <div class="pull-left cart-product-img">
                                                             <a href="#">
                                                                 <img class="img-responsive" alt="product" src="img/best-seller/4.jpg">
                                                             </a>
                                                         </div>
+                                                        {{-- deskripsi barang --}}
                                                         <div class="media-body cart-content">
                                                             <ul>
+                                                                {{-- nama barang --}}
                                                                 <li>
                                                                     <h2><a href="#">Product Title Here</a></h2>
                                                                     <h3><span>Code:</span> STPT600</h3>
                                                                 </li>
+                                                                {{-- kuantiti --}}
                                                                 <li>
                                                                     <p>X 1</p>
                                                                 </li>
+                                                                {{-- harga --}}
                                                                 <li>
                                                                     <p>$49</p>
                                                                 </li>
+                                                                {{-- tombol hapus cart --}}
                                                                 <li>
                                                                     <a class="trash" href="#"><i class="fa fa-trash-o"></i></a>
                                                                 </li>
@@ -98,6 +121,7 @@
                                                     </div>
                                                 </div>
                                             </li>
+                                            {{-- barang di cart 1an --}}
                                             <li>
                                                 <div class="cart-single-product">
                                                     <div class="media">
@@ -126,9 +150,11 @@
                                                     </div>
                                                 </div>
                                             </li>
+                                            {{-- box bawah cart buat total harga --}}
                                             <li>
                                                 <span><span>Total Harga</span></span><span>$112.8</span>
                                             </li>
+                                            {{-- tombol bayar + lihat keranjang --}}
                                             <li>
                                                 <ul class="checkout">
                                                     <li><a href="cart.html" class="btn-checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Lihat Keranjang</a></li>
@@ -138,6 +164,7 @@
                                         </ul>
                                     </div>
                                 </li>
+                                {{-- burger kanan sebelah logo cart --}}
                                 <li>
                                     <div class="additional-menu-area" id="additional-menu-area">
                                         <div id="mySidenav" class="sidenav">
@@ -208,15 +235,19 @@
                 </div>
             </div>
         </div>
+        {{-- header bawahnya / navbar--}}
         <div class="header-bottom">
             <div class="container">
                 <div class="row">
+                    {{-- kotak logo + kategori --}}
                     <div class="col-lg-3 col-md-3 col-sm-4">
                         <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Kategori</h2>
+                        {{-- logo --}}
                         <div class="logo-area">
                             <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
                         </div>
                     </div>
+                    {{-- navbar yang ada beranda dkk --}}
                     <div class="col-lg-9 col-md-9 col-sm-8">
                         <div class="main-menu-area">
                             <nav>
@@ -357,4 +388,3 @@
         </div>
     </div>
 </header>
-<!-- Header Area End Here -->
