@@ -3,7 +3,6 @@
 <script src="{{url('assets/js/plugins.js')}}"></script>
 <script src="{{url('assets/js/main.js')}}"></script>
 
-
 <script src="{{url('assets/js/lib/chart-js/Chart.bundle.js')}}"></script>
 <script src="{{url('assets/js/dashboard.js')}}"></script>
 <script src="{{url('assets/js/widgets.js')}}"></script>
@@ -11,9 +10,6 @@
 <script src="{{url('assets/js/lib/vector-map/jquery.vmap.min.js')}}"></script>
 <script src="{{url('assets/js/lib/vector-map/jquery.vmap.sampledata.js')}}"></script>
 <script src="{{url('assets/js/lib/vector-map/country/jquery.vmap.world.js')}}"></script>
-
-
-
 
 <script src="{{url('assets/js/lib/data-table/datatables.min.js')}}"></script>
 <script src="{{url('assets/js/lib/data-table/dataTables.bootstrap.min.js')}}"></script>
@@ -48,4 +44,15 @@
             normalizeFunction: 'polynomial'
         });
     })(jQuery);
+</script>
+<script src="{{url('assets/js/lib/chosen/chosen.jquery.min.js')}}"></script>
+
+<script>
+    jQuery(document).ready(function() {
+        jQuery(".standardSelect").chosen({
+            disable_search_threshold: 10,
+            no_results_text: "Oops, nothing found!",
+            width: "100%"
+        });
+    });
 </script>
