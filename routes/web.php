@@ -13,6 +13,8 @@
 
 //System
 Route::get('/home','System\HomeViewController@HomeView');
+//System-About
+Route::get('/about','System\AboutViewController@AboutView');
 
 //User
 Route::get('/registration','User\RegisterController@registerview');
@@ -32,5 +34,8 @@ Route::post('/productcreate','Product\CreateProductController@CreateProduct');
 Route::get('/admin','Admin\ViewAdminController@AdminView');
 Route::get('/admin/login','Admin\LoginAdminController@LoginView');
 Route::get('/admin/user_list','Admin\UserListAdminController@UserListView');
+//Admin-Category
+Route::get('/admin/category/all','Admin\CategoryAdminController@CategoryListView');
+Route::get('/admin/category/add_category','Admin\CategoryAdminController@AddCategoryView');
+Route::get('/admin/category/add_sub_category','Admin\CategoryAdminController@AddSubCategoryView');
 
-//aaa
