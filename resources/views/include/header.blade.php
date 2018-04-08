@@ -15,9 +15,8 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="account-wishlist">
                                 <ul>
-                                    <li><a href="login-registration.html"><i class="fa fa-lock" aria-hidden="true"></i> Account</a></li>
-                                    <li><a href="wishlist.html"><i class="fa fa-heart-o" aria-hidden="true"></i> Wishlist</a></li>
-                                    <li><a href="#"><i class="fa fa-usd" aria-hidden="true"></i> Rp</a></li>
+                                    <li><a href="/registration"><i class="fa fa-user" aria-hidden="true"></i> Account</a></li>
+                                    <li><a href="#">Rp. </a></li>
                                 </ul>
                             </div>
                         </div>
@@ -35,12 +34,12 @@
                         <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
                             <div class="search-area">
                                 <div class="input-group" id="adv-search">
-                                    <input type="text" class="form-control" placeholder="Search Product" />
+                                    <input type="text" class="form-control" placeholder="Cari Barang" />
                                     <div class="input-group-btn">
                                         <div class="btn-group" role="group">
                                             <div class="dropdown dropdown-lg">
                                                 <button type="button" class="btn btn-metro dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                    <span>All Categories</span>
+                                                    <span>Kategori</span>
                                                     <i class="fa fa-caret-up" aria-hidden="true"></i>
                                                     <i class="fa fa-caret-down" aria-hidden="true"></i>
                                                 </button>
@@ -128,15 +127,12 @@
                                                 </div>
                                             </li>
                                             <li>
-                                                <span><span>Sub Total</span></span><span>$124</span>
-                                                <span><span>Discount</span></span><span>$30</span>
-                                                <span><span>Vat(20%)</span></span><span>$18.8</span>
-                                                <span><span>Sub Total</span></span><span>$112.8</span>
+                                                <span><span>Total Harga</span></span><span>$112.8</span>
                                             </li>
                                             <li>
                                                 <ul class="checkout">
-                                                    <li><a href="cart.html" class="btn-checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>View Cart</a></li>
-                                                    <li><a href="check-out.html" class="btn-checkout"><i class="fa fa-share" aria-hidden="true"></i>Checkout</a></li>
+                                                    <li><a href="cart.html" class="btn-checkout"><i class="fa fa-shopping-cart" aria-hidden="true"></i>Lihat Keranjang</a></li>
+                                                    <li><a href="check-out.html" class="btn-checkout"><i class="fa fa-share" aria-hidden="true"></i>Bayar</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -188,7 +184,7 @@
                                                     </div>
                                                 </li>
                                             </ul>
-                                            <h3 class="ctg-name-title">Category Name List</h3>
+                                            <h3 class="ctg-name-title">Kategori</h3>
                                             <ul class="sidenav-nav">
                                                 <li><a href="shop1.html"><i class="flaticon-dress-1"></i>Women</a></li>
                                                 <li><a href="shop2.html"><i class="flaticon-polo"></i>Men</a></li>
@@ -216,7 +212,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-3 col-sm-4">
-                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Categories</h2>
+                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Kategori</h2>
                         <div class="logo-area">
                             <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
                         </div>
@@ -225,7 +221,7 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
-                                    <li class="active"><a href="#">Home</a>
+                                    <li class="active"><a href="#">Beranda</a>
                                         <ul>
                                             <li><a class="active" href="index.html">Home 1</a></li>
                                             <li><a href="index2.html">Home 2</a></li>
@@ -233,20 +229,7 @@
                                             <li><a href="index4.html">Home 4</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="about.html">About</a></li>
-                                    <li><a href="#">Blog</a>
-                                        <ul>
-                                            <li><a href="blog.html">Blog</a></li>
-                                            <li><a href="single-blog.html">Single Blog</a></li>
-                                            <li class="has-child-menu"><a href="#">Demo</a>
-                                                <ul class="thired-level">
-                                                    <li><a href="#">Demo 1</a></li>
-                                                    <li><a href="#">Demo 2</a></li>
-                                                </ul>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Pages</a>
+                                    <li><a href="#">Halaman</a>
                                         <ul class="mega-menu-area">
                                             <li>
                                                 <a href="index.html">Home 1</a>
@@ -286,16 +269,16 @@
                                             </li>
                                         </ul>
                                     </li>
+                                    <li><a href="#">Tentang</a></li>
                                     <li><a href="#">Kontak</a>
                                         <ul>
-                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com">E-mail</a></li>
-                                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669">Telepon</a></li>
-                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
-                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
-                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                                            <li><span><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> E-mail</a></span></li>
+                                            <li><span><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> Telepon</a></span></li>
+                                            <li><span><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></span></li>
+                                            <li><span><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></span></li>
+                                            <li><span><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></span></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>
