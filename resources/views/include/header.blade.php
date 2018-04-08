@@ -286,7 +286,19 @@
                                             </li>
                                         </ul>
                                     </li>
+<<<<<<< HEAD
+                                    <li><a href="#">Kontak</a>
+                                        <ul>
+                                            <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com">E-mail</a></li>
+                                            <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669">Telepon</a></li>
+                                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i>Facebook</a></li>
+                                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i>Instagram</a></li>
+                                        </ul>
+                                    </li>
+=======
                                     <li><a href="contact.html">Contact</a></li>
+>>>>>>> 1265f5f07971d0b83933b030e12979a874008852
                                 </ul>
                             </nav>
                         </div>
@@ -301,7 +313,7 @@
                             <div class="mobile-menu">
                                 <nav id="dropdown">
                                     <ul>
-                                        <li class="active"><a href="#">Home</a>
+                                        <li class="active"><a href="#">Beranda</a>
                                             <ul>
                                                 <li><a href="index.html">Home 1</a></li>
                                                 <li><a href="index2.html">Home 2</a></li>
