@@ -36,7 +36,8 @@ Route::get('/admin/login','Admin\ViewAdminController@LoginView');
 //Admin-User
 Route::get('/admin/user/all','Admin\ViewAdminController@UserListView');
 //Admin-Category
-Route::get('/admin/category/all','Admin\CategoryAdminController@CategoryListView');
-Route::get('/admin/category/add_category','Admin\CategoryAdminController@AddCategoryView');
-Route::get('/admin/category/add_sub_category','Admin\CategoryAdminController@AddSubCategoryView');
+Route::get('/admin/category/all','Admin\CategoryProduct\CategoryAdminController@CategoryListView');
+Route::get('/admin/category/add_category','Admin\CategoryProduct\CreateCategoryProductController@AddCategoryView');
+Route::post('/admin/category/add_category','Admin\CategoryProduct\CreateCategoryProductController@AddCategory');
+Route::get('/admin/category/add_sub_category','Admin\CategoryProduct\CategoryAdminController@AddSubCategoryView');
 
