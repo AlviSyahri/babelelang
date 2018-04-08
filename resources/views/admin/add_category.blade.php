@@ -31,10 +31,12 @@
                         <strong>Add Category</strong> Form
                       </div>
                       <div class="card-body card-block">
-                        <form action="" method="post" class="">
+                        <form action="{{url('/admin/category/add_category')}}" method="post">
+                        @csrf
                           <div class="form-group"><label for="nf-email" class=" form-control-label">ID Category</label><input type="text" value="1" class="form-control" disabled="disabled"><span class="help-block">Category Identity</span></div>
                           <div class="form-group"><label for="nf-password" class=" form-control-label">Category Name</label><input type="text" name="category_name" class="form-control"><span class="help-block">Masukan Nama Kategori Baru</span></div>
-                        </form>
+                          <div class="form-group"><label for="nf-password" class=" form-control-label">Font Code</label><input type="text" name="icon_name" class="form-control"><span class="help-block">Masukan Nama icon font awesome</span></div>
+                        
                       </div>
                       <div class="card-footer">
                         <button type="submit" class="btn btn-primary btn-sm">
@@ -44,6 +46,7 @@
                           <i class="fa fa-ban"></i> Reset
                         </button>
                       </div>
+                      </form>
                     </div>
                   </div>
                 </div>
