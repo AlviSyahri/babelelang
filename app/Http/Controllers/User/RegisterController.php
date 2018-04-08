@@ -10,7 +10,7 @@ use Auth;
 class RegisterController extends Controller
 {
    	public function registerview(){
-   	    return view('Register');
+   	    return view('user\registration');
    	}
 
    	public function doRegister(Request $request){
