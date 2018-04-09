@@ -19,8 +19,8 @@ Route::get('/contact','System\ContactViewController@viewcontact');
 Route::get('/about','System\AboutViewController@AboutView');
 
 //User
-Route::get('/registration','User\RegisterController@registerview');
-Route::post('/registration','User\RegisterController@doRegister');
+Route::get('/register','User\RegisterController@registerview');
+Route::post('/register','User\RegisterController@doRegister');
 Route::get('/login','User\LoginController@loginview');
 Route::post('/login','User\LoginController@doLogin');
 Route::get('/logout','User\LogoutController@doLogout');

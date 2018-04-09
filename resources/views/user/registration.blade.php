@@ -46,9 +46,5 @@
         </div>
     </div>
 </div>
-</div>
-<!-- Login Registration Page Area End Here -->
-<!-- Footer Area Start Here -->
 <footer>
-
-    @stop
+@stop
