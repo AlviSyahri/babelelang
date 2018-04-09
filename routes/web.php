@@ -28,7 +28,7 @@ Route::get('/updateprofile','User\UpdateController@updateuserview');
 Route::post('/updateprofile','User\UpdateController@updateuser');
 
 //Product
-Route::get('/viewProduct','Product\ProductViewController@ViewProduct');
+// Route::get('/viewProduct','Product\ProductViewController@ViewProduct');
 Route::get('/product', function (){
 	return view('product.product');
 });
