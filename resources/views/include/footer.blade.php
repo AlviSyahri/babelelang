@@ -1,8 +1,11 @@
+{{-- footer --}}
 <footer>
     <div class="footer-area">
+        {{-- footer atas --}}
         <div class="footer-area-top">
             <div class="container">
                 <div class="row">
+                    {{-- informasi --}}
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
                             <h3>Informasi</h3>
@@ -14,18 +17,19 @@
                             </ul>
                         </div>
                     </div>
+                    {{-- akun --}}
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
-                            <h3>My Account</h3>
+                            <h3>Akun</h3>
                             <ul class="info-list">
                                 <li><a href="login-registration.html">Akun Saya</a></li>
                                 <!--<li><a href="login-registration.html">Login</a></li>-->
                                 <li><a href="wishlist.html">Riwayat Pembelanjaan</a></li>
-                                <li><a href="wishlist.html">Wish List</a></li>
                                 <li><a href="cart.html">Lihat Keranjang</a></li>
                             </ul>
                         </div>
                     </div>
+                    {{-- product tag --}}
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
                             <h3>Product Tag</h3>
@@ -43,9 +47,10 @@
                             </ul>
                         </div>
                     </div>
+                    {{-- kontak --}}
                     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
                         <div class="footer-box">
-                            <h3>Stay With Us</h3>
+                            <h3>Kontak</h3>
                             <p>Tmply dummy text of the printing and typesetting industry nummy ever.</p>
                             <ul class="footer-social">
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -57,6 +62,7 @@
                 </div>
             </div>
         </div>
+        {{-- footer bawah / copyright --}}
         <div class="footer-area-bottom">
             <div class="container">
                 <div class="row">
@@ -70,9 +76,10 @@
 </footer>
 <!-- Footer Area End Here -->
 </div>
+
 <!-- Modal Dialog Box Start Here-->
 <div id="myModal" class="modal fade" role="dialog">
-    <div class="modal-dialog">
+    <div class="modal-dialog">  
         <div class="modal-body">
             <button type="button" class="close myclose" data-dismiss="modal">&times;</button>
             <div class="product-details1-area">

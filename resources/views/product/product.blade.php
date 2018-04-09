@@ -4,12 +4,16 @@
         <div class="product-details1-area">
             <div class="container">
                 <div class="row">
+                    {{-- tampilan product + featured product --}}
                     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col-md-push-3">
                         <div class="inner-shop-details">
+                            {{-- product + fotonya --}}
                             <div class="product-details-info-area">
                                 <div class="row">
+                                    {{-- foto barang --}}
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner-product-details-left">
+                                            {{-- gambar besar --}}
                                             <div class="tab-content">
                                                 <div class="tab-pane fade active in" id="related1">
                                                     <a href="#" class="zoom ex1"><img alt="single" src="img/product/product-details1.jpg" class="img-responsive"></a>
@@ -21,6 +25,7 @@
                                                     <a href="#" class="zoom ex1"><img alt="single" src="img/product/product-details1.jpg" class="img-responsive"></a>
                                                 </div>
                                             </div>
+                                            {{-- gambar kecil2 nya --}}
                                             <ul>
                                                 <li class="active">
                                                     <a href="#related1" data-toggle="tab" aria-expanded="false"><img alt="related1" src="img/product/product-details4.jpg" class="img-responsive"></a>
@@ -34,9 +39,12 @@
                                             </ul>
                                         </div>
                                     </div>
+                                    {{-- barang tanpa foto --}}
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                                         <div class="inner-product-details-right">
+                                            {{-- nama barangnya --}}
                                             <h3>Nama Barangnya Boii</h3>
+                                            {{-- bintang --}}
                                             <ul>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
@@ -44,17 +52,21 @@
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i class="fa fa-star" aria-hidden="true"></i></li>
                                             </ul>
+                                            {{-- harga --}}
                                             <p class="price">Rp. </p>
+                                            {{-- keteranga product --}}
                                             <p>keterangan product</p>
+                                            {{-- stok + kategori --}}
                                             <div class="product-details-content">
                                                 <p><span>Stok:</span> stok nya ada berapa</p>
                                                 <p><span>Kategori:</span> ini untuk kategori</p>
                                             </div>
-                                                <ul class="inner-product-details-cart">
-                                                    <li><a href="#">Tambah ke keranjang</a></li>
-                                                    <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
-                                                </ul>
-                                            </form>
+                                            {{-- tambah ke keranjang --}}
+                                            <ul class="inner-product-details-cart">
+                                                <li><a href="#">Tambah ke keranjang</a></li>
+                                                <li><a href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                                            </ul>
+                                            {{-- tombol bagikan --}}
                                             <ul class="product-details-social">
                                                 <li>Bagikan:</li>
                                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -64,19 +76,24 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- box ulasan + detail --}}
                             <div class="product-details-tab-area">
                                 <div class="row">
+                                    {{-- tombol ulasan + detail --}}
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <ul>
                                             <li class="active"><a href="#description" data-toggle="tab" aria-expanded="false">Detail</a></li>
                                             <li><a href="#review" data-toggle="tab" aria-expanded="false">Ulasan</a></li>
                                         </ul>
                                     </div>
+                                    {{-- konten box --}}
                                     <div class="col-lg-12 col-md-12 col-sm-12">
                                         <div class="tab-content">
+                                            {{-- punya detail --}}
                                             <div class="tab-pane fade active in" id="description">
                                                 <p>Porem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                                             </div>
+                                            {{-- punya si ulasan --}}
                                             <div class="tab-pane fade" id="review">
                                                 <p>Porem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
                                             </div>
@@ -84,6 +101,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- featured product --}}
                             <div class="featured-products-area2">
                                 <div class="row">
                                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -188,8 +206,10 @@
                             </div>
                         </div>
                     </div>
+                    {{-- side bar yang di kiri --}}
                     <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col-md-pull-9">
                         <div class="sidebar hidden-before-tab">
+                            {{-- kategori --}}
                             <div class="category-menu-area sidebar-section-margin" id="category-menu-area">
                                 <h2 class="title-sidebar">SHOP CATEGORIES</h2>
                                 <ul>
@@ -285,6 +305,7 @@
                                     </li>
                                 </ul>
                             </div>
+                            {{-- filter by price --}}
                             <div class="filter-by-price sidebar-section-margin">
                                 <h2 class="title-sidebar">FILTER BY PRICE</h2>
                                 <div id="price-range-wrapper" class="price-range-wrapper">
@@ -296,6 +317,7 @@
                                     <button class="btn-services-shop-now" type="submit" value="Login">Filter</button>
                                 </div>
                             </div>
+                            {{-- best product --}}
                             <div class="best-products sidebar-section-margin">
                                 <h2 class="title-sidebar">BEST PRODUCTS</h2>
                                 <div class="media">
@@ -335,6 +357,7 @@
                                     </div>
                                 </div>
                             </div>
+                            {{-- product tags --}}
                             <div class="product-tags sidebar-section-margin">
                                 <h2 class="title-sidebar">Product Tags</h2>
                                 <ul>
