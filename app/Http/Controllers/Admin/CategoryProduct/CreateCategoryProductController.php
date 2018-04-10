@@ -5,7 +5,6 @@ namespace App\Http\Controllers\Admin\CategoryProduct;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Model\Product_Category;
-use App\Model\User;
 
 use Validator;
 use Auth;
@@ -36,8 +35,9 @@ class CreateCategoryProductController extends Controller
         	$data = new Product_Category;
         	$data->category_name		=$request->category_name;
         	$data->flag_delete			=0;
-        	$data->Created_by			=Auth::User()->name;
+        	$data->Created_by			=Auth::user()->nama;
         	$data->icon_name			=$request->icon_name;
+			$data->save();
         }
         return redirect('/admin/category/add_category');
 	}

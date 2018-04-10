@@ -13,7 +13,7 @@
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="login-registration-field">
                 <h2 class="cart-area-title">Daftar</h2>
-                <form enctype="true" method="POST" action="{{url('/registration')}}">
+                <form enctype="true" method="POST" action="{{url('/register')}}">
                     @csrf
                     <label>Nama Lengkap</label>
                     <input type="text" placeholder="Nama Lengkap" name="nama" />

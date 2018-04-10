@@ -19,7 +19,7 @@
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="account-wishlist">
                                 <ul>
-                                    <li><a href="/registration"><i class="fa fa-user" aria-hidden="true"></i> Account</a></li>
+                                    <li><a href="{{url('/register')}}"><i class="fa fa-user" aria-hidden="true"></i> Account</a></li>
                                     <li><a href="#">Rp. </a></li>
                                 </ul>
                             </div>

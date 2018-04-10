@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Product_Category extends Model
 {
     use SoftDeletes;
-    protected $table= "msproduct_category";
+    protected $table = "msproduct_category";
     protected $primaryKey = "category_id";
 
     public function product(){

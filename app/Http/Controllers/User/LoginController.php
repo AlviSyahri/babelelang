@@ -24,7 +24,7 @@ class LoginController extends Controller
     			if ($user->user_activation	==	1) {
                     if($user->flag_delete == 0){
     				    Auth::Login($user);
-    				    return redirect(url('/home'));
+    				    return redirect(url('/'));
                     }
                     else{
                         $data='Akun telah dihapus';
@@ -32,11 +32,17 @@ class LoginController extends Controller
                     }
     			}
     			else{
-    				$data='Password & Email Salah';
+    				$data='User Belum Aktif';
     				return $data;
     			}
-    		}
-    	}
+    		}else{
+    				$data='Password salah!';
+    				return $data;
+    			}
+    	}else{
+    				$data='User Tidak ditemukan!';
+    				return $data;
+    			}
     }
 
 

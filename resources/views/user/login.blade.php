@@ -9,12 +9,12 @@
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="login-registration-field">
                             <h2 class="cart-area-title">Masuk</h2>
-                            <form method="POST" action="/doLogin">
+                            <form method="POST" action="{{url('/login')}}">
                                 @csrf
                                 <label>Alamat Email</label>
-                                <input type="text" placeholder="ex: felix@babelelang.com" />
+                                <input type="email" placeholder="ex: felix@babelelang.com" name="email"/>
                                 <label>Kata Sandi</label>
-                                <input type="password" placeholder="Password" />
+                                <input type="password" placeholder="Password" name="password"/>
 								<span class="pull-left"><input type="checkbox" name="remember"/>Ingat Saya?</span>
                                 <a href="#"><label class="pull-right">Lupa Kata Sandi?</label></a>
                                 <br><br><br>
