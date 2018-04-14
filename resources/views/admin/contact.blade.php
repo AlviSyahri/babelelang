@@ -16,14 +16,14 @@
                                     </div>
                                 </div>
                             </div>
-                            <h2>Send Us Message</h2>
+                            <h2>Kirim Pesan</h2>
                             <div class="row">
                                 <div class="contact-form">
                                     <form >
                                         <fieldset>
                                             <div class="col-sm-6">
                                                 <div class="form-group">
-                                                    <input type="text" placeholder="Name*" class="form-control" id="form-name" data-error="Name field is required" required>
+                                                    <input type="text" placeholder="Nama*" class="form-control" id="form-name" data-error="Name field is required" required>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                             </div>
@@ -35,13 +35,13 @@
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-group">
-                                                    <textarea placeholder="Message*" class="textarea form-control" id="form-message" rows="8" cols="20" data-error="Message field is required" required></textarea>
+                                                    <textarea placeholder="Pesan*" class="textarea form-control" id="form-message" rows="8" cols="20" data-error="Message field is required" required></textarea>
                                                     <div class="help-block with-errors"></div>
                                                 </div>
                                             </div>
                                             <div class="col-sm-12">
                                                 <div class="form-group">
-                                                    <button type="submit" class="btn-send-message">Send Message</button>
+                                                    <button type="submit" class="btn-send-message">Kirim</button>
                                                 </div>
                                             </div>
                                         </fieldset>
@@ -57,13 +57,13 @@
                     </div>
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
                         <div class="contact-us-right">
-                            <h2 class="title-sidebar">Contact Info</h2>
+                            <h2 class="title-sidebar">Info Kontak</h2>
                             <ul>
                                 <li class="con-address"></li>
-                                <li class="con-envelope">info@metro.com</li>
-                                <li class="con-phone">+ 123 45678910
-                                    <br> + 123 45678910</li>
-                                <li class="con-fax">+ 123 45678910</li>
+                                <li class="con-envelope">sevenplace07@gmail.com</li>
+                                <li class="con-phone">+628 5862 842 669
+                                    <br> + 628 1294 53 0216</li>
+                                <li class="con-fax">+</li>
                             </ul>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
             <div class="login-form">
                 <form>
                     <div class="form-group">
-                        <label>Email address</label>
+                        <label>Alamat Email</label>
                         <input type="email" class="form-control" placeholder="Email">
                     </div>
                     <div class="form-group">
