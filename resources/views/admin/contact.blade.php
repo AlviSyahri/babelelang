@@ -7,7 +7,7 @@
         <div class="contact-us-page-area">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-12">
+                    <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
                         <div class="contact-us-left">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -55,15 +55,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                    <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
                         <div class="contact-us-right">
-                            <h2 class="title-sidebar">Info Kontak</h2>
+                            <h2 class="title-sidebar">Info Kontak</h2>                            
                             <ul>
-                                <li class="con-address"></li>
-                                <li class="con-envelope">sevenplace07@gmail.com</li>
-                                <li class="con-phone">+628 5862 842 669
-                                    <br> + 628 1294 53 0216</li>
-                                <li class="con-fax">+</li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> 085 862 842 669</a></li>
+                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> support@babelelang.com</a></li>
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
+                                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
                             </ul>
                         </div>
                     </div>

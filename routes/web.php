@@ -35,8 +35,10 @@ Route::post('/productcreate','Product\CreateProductController@CreateProduct');
 //Admin
 Route::get('/admin','Admin\ViewAdminController@AdminHomeView');
 Route::get('/admin/login','Admin\ViewAdminController@LoginView');
+
 //Admin-User
 Route::get('/admin/user/all','Admin\ViewAdminController@UserListView');
+
 //Admin-Category
 Route::get('/admin/category/all','Admin\CategoryProduct\CategoryAdminController@CategoryListView');
 Route::get('/admin/category/add_category','Admin\CategoryProduct\CreateCategoryProductController@AddCategoryView');
