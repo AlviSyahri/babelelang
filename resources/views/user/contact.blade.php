@@ -7,15 +7,17 @@
         <div class="contact-us-page-area">
             <div class="container">
                 <div class="row">
+                    {{-- sisi kiri buat kirim pesan --}}
                     <div class="col-lg-9 col-md-9 col-sm-8 col-xs-8">
                         <div class="contact-us-left">
-                            <div class="row">
+                            {{-- <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                     <div class="google-map-area">
                                         <div id="googleMap" style="width:100%; height:395px;"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> --}}
+                            {{-- kotak kirim pesan --}}
                             <h2>Kirim Pesan</h2>
                             <div class="row">
                                 <div class="contact-form">
@@ -55,6 +57,7 @@
                             </div>
                         </div>
                     </div>
+                    {{-- sisi kanan --}}
                     <div class="col-lg-3 col-md-3 col-sm-4 col-xs-4">
                         <div class="contact-us-right">
                             <h2 class="title-sidebar">Info Kontak</h2>                            
