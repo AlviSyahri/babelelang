@@ -62,8 +62,8 @@
                         <div class="contact-us-right">
                             <h2 class="title-sidebar">Info Kontak</h2>                            
                             <ul>
-                                <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> 085 862 842 669</a></li>
-                                <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> support@babelelang.com</a></li>
+                                <li><a href="tel:085862842669"><i class="fa fa-phone" aria-hidden="true"></i> 085 862 842 669</a></li>
+                                <li><a href="mailto:support@babelelang.com"><i class="fa fa-envelope" aria-hidden="true"></i> support@babelelang.com</a></li>
                                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> Facebook</a></li>
                                 <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i> Twitter</a></li>
                                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
