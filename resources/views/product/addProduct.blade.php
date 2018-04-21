@@ -13,7 +13,7 @@
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
             <div class="login-registration-field">
                 <h2 class="cart-area-title">Detail Barang</h2>
-                <form enctype="true" method="POST" action="{{url('/addProduct')}}">
+                <form enctype="true" method="POST" action="{{url('/createProduct')}}">
                     @csrf
                     <label>Nama</label>
                     <input type="text" placeholder="Nama barang" name="product_name" />
