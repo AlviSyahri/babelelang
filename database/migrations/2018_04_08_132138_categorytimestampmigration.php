@@ -15,7 +15,7 @@ class Categorytimestampmigration extends Migration
     {
         Schema::table('msproduct_category',function (Blueprint $table){
             $table->string('Created_by');
-            $table->timestamp();
+            $table->timestamps();
             $table->string('icon_name');
         });
     }
