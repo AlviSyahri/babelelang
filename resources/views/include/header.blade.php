@@ -213,7 +213,7 @@
                                             </ul>
                                             <h3 class="ctg-name-title">Kategori</h3>
                                             <ul class="sidenav-nav">
-                                                <li><a href="shop1.html"><i class="flaticon-dress-1"></i>Women</a></li>
+                                                <li><a href="shop1.html">Women</a></li>
                                                 <li><a href="shop2.html"><i class="flaticon-polo"></i>Men</a></li>
                                                 <li><a href="shop3.html"><i class="flaticon-plug"></i>Electornics</a></li>
                                                 <li><a href="shop4.html"><i class="flaticon-necklace"></i>Jewellery</a></li>
@@ -241,7 +241,7 @@
                 <div class="row">
                     {{-- kotak logo + kategori --}}
                     <div class="col-lg-3 col-md-3 col-sm-4">
-                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Kategori</h2>
+                        <h2 class="category-menu-title close-on-tab"><a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>Kategori </h2>
                         {{-- logo --}}
                         <div class="logo-area">
                             <a href="index.html"><img class="img-responsive" src="img/logo.png" alt="logo"></a>
@@ -252,6 +252,10 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
+<<<<<<< HEAD
+                                    <li class="active"><a href="#">Beranda</a>
+                                        
+=======
                                     <li class="active"><a href="/">Beranda</a>
                                         <ul>
                                             <li><a class="active" href="index.html">Home 1</a></li>
@@ -259,39 +263,37 @@
                                             <li><a href="index3.html">Home 3</a></li>
                                             <li><a href="index4.html">Home 4</a></li>
                                         </ul>
+>>>>>>> e32e46fa57086832ddb027f8842644803f7e746e
                                     </li>
-                                    <li><a href="#">Halaman</a>
+                                    <li><a href="#">kategori</a>
                                         <ul class="mega-menu-area">
                                             <li>
-                                                <a href="index.html">Home 1</a>
-                                                <a href="index2.html">Home 2</a>
-                                                <a href="index3.html">Home 3</a>
-                                                <a href="index4.html">Home 4</a>
+                                                <a href="index.html">Fashion Pria</a>
+                                                <a href="index2.html">Fashion Wanita</a>
+                                                <a href="index3.html">Fashion Anak</a>
+                                                
                                             </li>
                                             <li>
-                                                <a href="single-blog.html">Single Blog 2</a>
-                                                <a href="portfolio1.html">Portfolio 1</a>
-                                                <a href="portfolio2.html">Portfolio 2</a>
-                                                <a href="shop3.html">Shop 3</a>
+                                                <a href="single-blog.html">Komputer</a>
+                                                <a href="portfolio1.html">Laptop</a>
+                                                <a href="portfolio2.html">Seluler</a>
+                                               
                                             </li>
                                             <li>
-                                                <a href="shop1.html">Shop 1</a>
-                                                <a href="shop2.html">Shop 2</a>
-                                                <a href="shop4.html">Shop 4</a>
-                                                <a href="shop5.html">Shop 5</a>
+                                                <a href="shop1.html">Kalung</a>
+                                                <a href="shop2.html">Cincin</a>
+                                                <a href="shop4.html">Jam Tangan</a>
+                                               
                                             </li>
                                             <li>
-                                                <a href="shop6.html">Shop 6</a>
-                                                <a href="shop7.html">Shop 7</a>
-                                                <a href="product-details1.html">Product Details 1</a>
-                                                <a href="product-details2.html">Product Details 2</a>
+                                                <a href="shop6.html">Sepatu Kets</a>
+                                                <a href="shop7.html">Sepatu Formal</a>
+                                                <a href="product-details1.html">Sandal</a>
+                                                
                                             </li>
                                             <li>
-                                                <a href="login-registration.html">Login Registration</a>
-                                                <a href="my-account.html">My Account</a>
-                                                <a href="wishlist.html">Wishlist</a>
-                                                <a href="cart.html">Cart</a>
-                                            </li>
+                                               
+                                                
                                             <li>
                                                 <a href="check-out.html">Check Out</a>
                                                 <a href="order-history.html">Order History</a>
