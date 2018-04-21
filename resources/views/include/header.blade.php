@@ -11,7 +11,7 @@
                             <div class="header-contact">
                                 <ul>
                                     <li><i class="fa fa-phone" aria-hidden="true"></i><a href="+1234567890"> 085 862 842 669</a></li>
-                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> sevenplaces07@gmail.com</a></li>
+                                    <li><i class="fa fa-envelope" aria-hidden="true"></i><a href="#"> support@babelelang.com</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -252,8 +252,18 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
+<<<<<<< HEAD
                                     <li class="active"><a href="#">Beranda</a>
                                         
+=======
+                                    <li class="active"><a href="/">Beranda</a>
+                                        <ul>
+                                            <li><a class="active" href="index.html">Home 1</a></li>
+                                            <li><a href="index2.html">Home 2</a></li>
+                                            <li><a href="index3.html">Home 3</a></li>
+                                            <li><a href="index4.html">Home 4</a></li>
+                                        </ul>
+>>>>>>> e32e46fa57086832ddb027f8842644803f7e746e
                                     </li>
                                     <li><a href="#">kategori</a>
                                         <ul class="mega-menu-area">
@@ -293,7 +303,7 @@
                                         </ul>
                                     </li>
                                     <li><a href="#">Tentang</a></li>
-                                    <li><a href="#">Kontak</a>
+                                    <li><a href="/contact">Kontak</a>
                                         <ul>
                                             <li><span><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:support@babelelang.com"> E-mail</a></span></li>
                                             <li><span><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:085862842669"> Telepon</a></span></li>
