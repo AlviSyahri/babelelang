@@ -15,7 +15,7 @@ class CreateProductController extends Controller
 {
 	public function ViewCreateProduct(Request $request){
 		$data=Product_Category::Where('flag_delete',0)->get();
-        return view('admin.Product.AdminCreateProduct',compact('data'));
+        return view('product.addProduct',compact('data'));
 	}
 
 	public function CreateProduct(Request $request){
@@ -40,7 +40,7 @@ class CreateProductController extends Controller
     		'max_price'						=>'required'							
     	],$message);
 
-		$imagevalidator = Validator::make($req->all(),[
+		$imagevalidator = Validator::make($request->all(),[
             'picture_name' => 'mimes:jpeg,jpg,png,gif|max:25000',
         ],$message);
 
@@ -52,9 +52,9 @@ class CreateProductController extends Controller
         else{
             $filename = "";
             $path     ='Products/';
-            $image = $req->file('image');
+            $image = $request->file('image');
 
-            if($req->hasfile('image')){
+            if($request->hasfile('image')){
                 if($imagevalidator->fails()){
                     return redirect()
                         ->back()
@@ -67,7 +67,8 @@ class CreateProductController extends Controller
                 }
             }
 
-        	$product = new Product;
+			$product = new Product;
+			$product->user_id				= Auth::user()->user_id;
         	$product->product_name			= $request->product_name;
         	$product->product_description	= $request->product_description;
         	$product->start_price			= $request->start_price;
@@ -77,12 +78,13 @@ class CreateProductController extends Controller
         	$product->expired_bid			= $request->expired_bid;
         	$product->max_price				= $request->max_price;
 			$product->category_id 			= $request->category_id;
-        	$product->Created_by			= Auth::user()->name;
+        	$product->Created_by			= Auth::user()->nama;
             $product->flag_delete			= 0;
-            $product->save();
+			$product->save();
+			$product = Product::orderBy('product_id', 'desc')->first();
             $picture = new Picture;
             $picture->picture_name			= $filename;
-            $picture->product_id 			= $request->product_id;
+            $picture->product_id 			= $product->product_id;
             $picture->flag_delete			= 0;
             $picture->save();
         }

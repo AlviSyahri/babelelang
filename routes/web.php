@@ -29,8 +29,8 @@ Route::post('/updateprofile','User\UpdateController@updateuser');
 
 //Product
 Route::get('/product','Product\ProductViewController@ViewProduct');
-Route::get('/addProduct','Product\ProductViewController@addProduct');
-//Route::get('/addProduct','Product\CreateProductController@ViewCreateProduct');
+//Route::get('/addProduct','Product\ProductViewController@addProduct');
+Route::get('/addProduct','Product\CreateProductController@ViewCreateProduct');
 Route::post('/createProduct','Product\CreateProductController@CreateProduct');
 
 //Admin

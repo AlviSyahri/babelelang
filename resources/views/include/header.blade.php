@@ -252,10 +252,6 @@
                         <div class="main-menu-area">
                             <nav>
                                 <ul>
-<<<<<<< HEAD
-                                    <li class="active"><a href="#">Beranda</a>
-                                        
-=======
                                     <li class="active"><a href="/">Beranda</a>
                                         <ul>
                                             <li><a class="active" href="index.html">Home 1</a></li>
@@ -263,7 +259,6 @@
                                             <li><a href="index3.html">Home 3</a></li>
                                             <li><a href="index4.html">Home 4</a></li>
                                         </ul>
->>>>>>> e32e46fa57086832ddb027f8842644803f7e746e
                                     </li>
                                     <li><a href="#">kategori</a>
                                         <ul class="mega-menu-area">

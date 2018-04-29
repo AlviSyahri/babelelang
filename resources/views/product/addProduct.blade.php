@@ -19,25 +19,36 @@
                     <input type="text" placeholder="Nama barang" name="product_name" />
                     <label>Deskripsi </label>
                     <input type="textarea" placeholder="Deskripsi barang" name="product_description" />
-                    <label>Harga Awal</label>
-                    <input type="number" placeholder="Contoh: 500000" name="start_price" />
-                    <label>Harga Akhir</label>
-                    <input type="number" placeholder="Contoh: 500000" name="max_price" />
+                    <div>
+                        <label for="kategori">Kategori: </label>
+                        <select id="kategori" name="category_id">
+                            <option value="">Choose</option>
+                            @foreach($data as $data)
+                                <option value="{{$data->category_id}}">{{$data->category_name}}</option>
+                            @endforeach
+                        </select>
+                    </div>
                     <label>Kondisi Barang </label>
                     <div>
                         <span>
-                            <input type="radio" name="product_condition" value="0"> Bekas
+                            <input type="radio" name="product_condition" value="0">Bekas
                         </span>
                         <span>
                             <input type="radio" name="product_condition" value="1">Baru
                         </span>
                     </div>
+                    <label>Berat barang</label>
+                    <input type="number" placeholder="Contoh: 2" name="weight" />
+                    <label>Harga Awal</label>
+                    <input type="number" placeholder="Contoh: 500000" name="start_price" />
+                    <label>Harga Akhir</label>
+                    <input type="number" placeholder="Contoh: 500000" name="max_price" />
                     <label>Kelipatan Harga</label>
                     <input type="number" placeholder="Contoh: 5000" name="multiple_price" />
                     <label>Tanggal Berakhir Lelang </label>
                     <input type="date" name="expired_bid" />
                     <label>Foto Barang </label>
-                    <input type="file" name="image1" />
+                    <input type="file" name="picture_name" />
                     <button class="btn-send-message disabled" type="submit" value="Register">Jual</button>
                 </form>
             </div>
